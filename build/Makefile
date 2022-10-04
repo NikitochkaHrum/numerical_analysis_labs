@@ -129,29 +129,29 @@ lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
 .PHONY : lab/fast
 
-src/lab1.o: src/lab1.cpp.o
-.PHONY : src/lab1.o
+src/lab2.o: src/lab2.cpp.o
+.PHONY : src/lab2.o
 
 # target to build an object file
-src/lab1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab1.cpp.o
-.PHONY : src/lab1.cpp.o
+src/lab2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab2.cpp.o
+.PHONY : src/lab2.cpp.o
 
-src/lab1.i: src/lab1.cpp.i
-.PHONY : src/lab1.i
+src/lab2.i: src/lab2.cpp.i
+.PHONY : src/lab2.i
 
 # target to preprocess a source file
-src/lab1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab1.cpp.i
-.PHONY : src/lab1.cpp.i
+src/lab2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab2.cpp.i
+.PHONY : src/lab2.cpp.i
 
-src/lab1.s: src/lab1.cpp.s
-.PHONY : src/lab1.s
+src/lab2.s: src/lab2.cpp.s
+.PHONY : src/lab2.s
 
 # target to generate assembly for a file
-src/lab1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab1.cpp.s
-.PHONY : src/lab1.cpp.s
+src/lab2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab2.cpp.s
+.PHONY : src/lab2.cpp.s
 
 src/matrices.o: src/matrices.cpp.o
 .PHONY : src/matrices.o
@@ -177,6 +177,30 @@ src/matrices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/matrices.cpp.s
 .PHONY : src/matrices.cpp.s
 
+src/methods.o: src/methods.cpp.o
+.PHONY : src/methods.o
+
+# target to build an object file
+src/methods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/methods.cpp.o
+.PHONY : src/methods.cpp.o
+
+src/methods.i: src/methods.cpp.i
+.PHONY : src/methods.i
+
+# target to preprocess a source file
+src/methods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/methods.cpp.i
+.PHONY : src/methods.cpp.i
+
+src/methods.s: src/methods.cpp.s
+.PHONY : src/methods.s
+
+# target to generate assembly for a file
+src/methods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/methods.cpp.s
+.PHONY : src/methods.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab"
-	@echo "... src/lab1.o"
-	@echo "... src/lab1.i"
-	@echo "... src/lab1.s"
+	@echo "... src/lab2.o"
+	@echo "... src/lab2.i"
+	@echo "... src/lab2.s"
 	@echo "... src/matrices.o"
 	@echo "... src/matrices.i"
 	@echo "... src/matrices.s"
+	@echo "... src/methods.o"
+	@echo "... src/methods.i"
+	@echo "... src/methods.s"
 .PHONY : help
 
 

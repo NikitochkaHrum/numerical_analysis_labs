@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pna/Documents/study/numerical_analysis_labs/src/lab1.cpp" "CMakeFiles/lab.dir/src/lab1.cpp.o" "gcc" "CMakeFiles/lab.dir/src/lab1.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/lab2.cpp" "CMakeFiles/lab.dir/src/lab2.cpp.o" "gcc" "CMakeFiles/lab.dir/src/lab2.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp" "CMakeFiles/lab.dir/src/matrices.cpp.o" "gcc" "CMakeFiles/lab.dir/src/matrices.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/methods.cpp" "CMakeFiles/lab.dir/src/methods.cpp.o" "gcc" "CMakeFiles/lab.dir/src/methods.cpp.o.d"
   )
 
 # Targets to which this target links.
