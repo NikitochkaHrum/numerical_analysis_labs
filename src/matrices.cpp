@@ -67,6 +67,10 @@ Vec Vec::operator -(Vec b) { // вычитание векторов
     return Vec(res);
 }
 
+ld Vec::operator[](int idx) { // индексация
+    return data[idx];
+}
+
 Mat::Mat(){
     data.resize(0);
 }
@@ -359,6 +363,10 @@ Vec Mat::operator *(Vec v) { // умножение матрицы на вект�
             res[i] += data[i][j] * v.data[j];
     }
     return Vec(res);
+}
+
+vector<ld> Mat::operator[](int idx){ // индексация
+    return data[idx];
 }
 
 Vec solve_equation(Mat A, Vec b) { // решение СЛУ

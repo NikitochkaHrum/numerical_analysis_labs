@@ -16,6 +16,7 @@ public:
     ld euclidian_norm(); // корень из суммы квадратов
     Vec operator+(Vec b); // сложение векторов
     Vec operator-(Vec b); // вычитание векторов
+    ld operator[](int idx); // индексация
 };
 
 class Mat
@@ -44,7 +45,7 @@ public:
     Mat operator +(Mat b); // сложение матриц
     Mat operator -(Mat b); // вычитание матрицы из матрицы
     Vec operator *(Vec v); // умножение матрицы на вектор
+    vector<ld> operator [](int idx); // индексация
 };
-
 
 Vec solve_equation(Mat A, Vec b);
