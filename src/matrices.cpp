@@ -209,7 +209,7 @@ ld Mat::sumOfNonDiagonalSquares() {
     return 2 * ret;
 }
 
-void Mat::calc_LUP(bool log = true) {
+void Mat::calc_LUP(bool log) {
     if (data.empty() || data.size() != data[0].size()) {
         throw invalid_argument("not square matrix");
     }
@@ -359,4 +359,36 @@ Vec Mat::operator *(Vec v) { // умножение матрицы на вект�
             res[i] += data[i][j] * v.data[j];
     }
     return Vec(res);
+}
+
+Vec solve_equation(Mat A, Vec b) { // решение СЛУ
+    if (A.data.empty() || A.data.size() != A.data[0].size() || A.data.size() != b.data.size())
+        throw invalid_argument("incomparable matrix and vector sizes");
+    if (A.L.empty() || A.U.empty())
+        A.calc_LUP(false);
+    int n = b.data.size();
+    vector<ld> bb(n);
+    for (int i = 0; i < n; ++i)
+        bb[i] = b.data[A.P[i]];
+    b.data = bb;
+    vector<ld> y(n);
+
+    int idx = 0;
+    for (int i = 0; i < n; i++) {
+        ld s = 0;
+        for (int j = 0; j < i; j++) {
+            s += A.L[i][j] * y[j];
+        }
+        y[i] = (b.data[i] - s) / A.L[i][i];
+    }
+    vector<ld> x(n);
+
+    for (int i = n - 1; i > -1; i--) {
+        ld s = 0;
+        for (int j = n - 1; j > i; --j) {
+            s += A.U[i][j] * x[j];
+        }
+        x[i] = (y[i] - s);
+    }
+    return Vec(x);
 }

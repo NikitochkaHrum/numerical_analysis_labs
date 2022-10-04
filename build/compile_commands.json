@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab1.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab1.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab1.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/matrices.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp"
+}
+]
