@@ -8,10 +8,12 @@ const ld pi = 3.14159265358979323846, eps = 1e-12;
 
 Vec::Vec(){
     data.resize(0);
+    n=0;
 }
 
 Vec::Vec(vector<ld> data) {
     this->data = data;
+    n=data.size();
 }
 
 void Vec::print(){ // вывод вектора
@@ -73,10 +75,17 @@ ld Vec::operator[](int idx) { // индексация
 
 Mat::Mat(){
     data.resize(0);
+    n=0;
+    m=0;
 }
 
 Mat::Mat(vector<vector<ld>> data) {
     this->data = data;
+    n=data.size();
+    if(!n)
+        m=0;
+    else
+        m=data[0].size();
 }
 
 void Mat::print(){ // вывод матрицы

@@ -7,6 +7,7 @@ typedef long double ld;
 class Vec
 {
 public:
+    int n;
     vector<ld> data;
     Vec();
     Vec(vector<ld> data);
@@ -22,6 +23,7 @@ public:
 class Mat
 {
 public:
+    int n, m;
     vector<vector<ld>> data;
     vector<vector<ld>> L, U;
     vector<int> P;
