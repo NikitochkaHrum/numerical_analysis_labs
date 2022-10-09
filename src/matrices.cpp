@@ -11,6 +11,11 @@ Vec::Vec(){
     n=0;
 }
 
+Vec::Vec(int n){
+    this->n=n;
+    data.resize(n, 0);
+}
+
 Vec::Vec(vector<ld> data) {
     this->data = data;
     n=data.size();
@@ -77,6 +82,18 @@ Mat::Mat(){
     data.resize(0);
     n=0;
     m=0;
+}
+
+Mat::Mat(int n){
+    this->n=n;
+    this->m=n;
+    data.resize(n, vector<ld>(n, 0));
+}
+
+Mat::Mat(int n, int m){
+    this->n=n;
+    this->m=m;
+    data.resize(n, vector<ld>(m, 0));
 }
 
 Mat::Mat(vector<vector<ld>> data) {

@@ -1,8 +1,8 @@
 #include "methods.h"
 
 int main(){
-    freopen("/home/pna/Documents/study/numerical_analysis_labs/src/input.txt", "r", stdin);
-    freopen("/home/pna/Documents/study/numerical_analysis_labs/src/output.txt", "w", stdout);
+    freopen("/home/pna/Documents/study/numerical_analysis_labs/input.txt", "r", stdin);
+    freopen("/home/pna/Documents/study/numerical_analysis_labs/output.txt", "w", stdout);
     int n;
     cin >> n;
     vector<vector<ld>> a(n, vector<ld>(n));

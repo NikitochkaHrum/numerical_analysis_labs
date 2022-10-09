@@ -10,6 +10,7 @@ public:
     int n;
     vector<ld> data;
     Vec();
+    Vec(int n);
     Vec(vector<ld> data);
     void print(); // вывод вектора
     ld cubic_norm(); // максимальный элемент
@@ -29,6 +30,8 @@ public:
     vector<int> P;
     int n_swaps = 0, rang = 0;
     Mat();
+    Mat(int n);
+    Mat(int n, int m);
     Mat(vector<vector<ld>> data);
     void print(); // вывод матрицы
     vector<vector<ld>> permutted_data(); // P*A
