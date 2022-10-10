@@ -11,6 +11,11 @@ int main(){
     vector<ld> bb(n);
     for(int i=0; i<n; i++) bb[i]=i+1;
     Vec b(bb);
+    cout << "b:\n";
+    b.print();
+    cout << '\n';
     Vec ans = direct_sqrt(Mat(a), b);
+    cout << "Direct sqrt method:\nX:\n";
     ans.print();
+    cout << '\n';
 }
