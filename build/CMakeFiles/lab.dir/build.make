@@ -153,10 +153,24 @@ CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp -o CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s
 
+CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp
+CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp
+
+CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp > CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.i
+
+CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp -o CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.s
+
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.i: cmake_force
@@ -189,6 +203,7 @@ lab_OBJECTS = \
 "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o" \
+"CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o"
 
@@ -201,11 +216,12 @@ lab: CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o
+lab: CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o
 lab: CMakeFiles/lab.dir/build.make
 lab: CMakeFiles/lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

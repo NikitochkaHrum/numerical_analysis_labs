@@ -2,6 +2,7 @@
 #include "iteration_methods/simple_iteration.h"
 #include "iteration_methods/gradient_descent.h"
 #include "iteration_methods/simple_relaxation.h"
+#include "iteration_methods/conj_grad.h"
 
 int main(){
     const double EPS = 1e-4;
@@ -36,5 +37,11 @@ int main(){
     cout << '\n';
     x = simple_relaxation(a, b, b, solution, EPS);
     cout << '\n';
+    x = conj_grad(a, b, b, solution, EPS);
+    ld cond = a.cond(3);
+    cout << "\nЧисло обусловленности = " << a.cond(3) << "\nТеоретическая оценка числа итераций:\n";
+    cout << "\tМетоды простой итерации и градиентного спуска: " << simple_iteration_estimate_n_iterations(EPS, cond) << '\n';
+    cout << "\tМетод простой релаксации: " << simple_relaxation_estimate_n_iterations(EPS, cond) << '\n';
+    cout << "\tМетод сопряжённых градиентов: " << conj_grad_estimate_n_iterations(EPS, cond) << '\n';
     
 }

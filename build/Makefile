@@ -177,6 +177,30 @@ src/iteration_methods/calc_params.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.s
 .PHONY : src/iteration_methods/calc_params.cpp.s
 
+src/iteration_methods/conj_grad.o: src/iteration_methods/conj_grad.cpp.o
+.PHONY : src/iteration_methods/conj_grad.o
+
+# target to build an object file
+src/iteration_methods/conj_grad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o
+.PHONY : src/iteration_methods/conj_grad.cpp.o
+
+src/iteration_methods/conj_grad.i: src/iteration_methods/conj_grad.cpp.i
+.PHONY : src/iteration_methods/conj_grad.i
+
+# target to preprocess a source file
+src/iteration_methods/conj_grad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.i
+.PHONY : src/iteration_methods/conj_grad.cpp.i
+
+src/iteration_methods/conj_grad.s: src/iteration_methods/conj_grad.cpp.s
+.PHONY : src/iteration_methods/conj_grad.s
+
+# target to generate assembly for a file
+src/iteration_methods/conj_grad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.s
+.PHONY : src/iteration_methods/conj_grad.cpp.s
+
 src/iteration_methods/gradient_descent.o: src/iteration_methods/gradient_descent.cpp.o
 .PHONY : src/iteration_methods/gradient_descent.o
 
@@ -336,6 +360,9 @@ help:
 	@echo "... src/iteration_methods/calc_params.o"
 	@echo "... src/iteration_methods/calc_params.i"
 	@echo "... src/iteration_methods/calc_params.s"
+	@echo "... src/iteration_methods/conj_grad.o"
+	@echo "... src/iteration_methods/conj_grad.i"
+	@echo "... src/iteration_methods/conj_grad.s"
 	@echo "... src/iteration_methods/gradient_descent.o"
 	@echo "... src/iteration_methods/gradient_descent.i"
 	@echo "... src/iteration_methods/gradient_descent.s"

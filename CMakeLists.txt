@@ -12,5 +12,7 @@ add_executable(lab  src/lab3.cpp
                     src/iteration_methods/simple_iteration.cpp
                     src/iteration_methods/gradient_descent.cpp
                     src/iteration_methods/simple_relaxation.cpp
+                    src/iteration_methods/conj_grad.cpp
                     src/iteration_methods/calc_params.cpp
-                    src/iteration_methods/method_log/method_info.cpp)
+                    src/iteration_methods/method_log/method_info.cpp
+                    )

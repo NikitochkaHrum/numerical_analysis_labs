@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/direct_sqrt.cpp" "CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o" "gcc" "CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp" "CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp" "CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/gradient_descent.cpp" "CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp" "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp" "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o.d"
