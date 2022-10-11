@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/gradient_descent.cpp" "CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp" "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp" "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp" "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp" "CMakeFiles/lab.dir/src/lab3.cpp.o" "gcc" "CMakeFiles/lab.dir/src/lab3.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp" "CMakeFiles/lab.dir/src/matrices.cpp.o" "gcc" "CMakeFiles/lab.dir/src/matrices.cpp.o.d"
   )

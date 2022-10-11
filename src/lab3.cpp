@@ -1,6 +1,7 @@
 #include "direct_methods/direct_sqrt.h"
 #include "iteration_methods/simple_iteration.h"
 #include "iteration_methods/gradient_descent.h"
+#include "iteration_methods/simple_relaxation.h"
 
 int main(){
     const double EPS = 1e-4;
@@ -30,12 +31,10 @@ int main(){
     cout << a.matrixnormeuk() << '\n';
     // cout << "\nМетод простой итерации:\n";
     Vec x = simple_iteration(a, b, b, solution, EPS);
-    cout << "X:\n";
-    x.print();
     cout << '\n';
     x = gradient_descent(a, b, b, solution, EPS);
-    cout << "X:\n";
-    x.print();
+    cout << '\n';
+    x = simple_relaxation(a, b, b, solution, EPS);
     cout << '\n';
     
 }

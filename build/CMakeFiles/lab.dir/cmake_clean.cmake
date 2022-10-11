@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d"
   "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o"
   "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o.d"
+  "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o"
+  "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o.d"
   "CMakeFiles/lab.dir/src/lab3.cpp.o"
   "CMakeFiles/lab.dir/src/lab3.cpp.o.d"
   "CMakeFiles/lab.dir/src/matrices.cpp.o"

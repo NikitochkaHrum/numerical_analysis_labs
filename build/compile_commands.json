@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
   "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp",
   "file": "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp"
 },

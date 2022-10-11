@@ -249,6 +249,30 @@ src/iteration_methods/simple_iteration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.s
 .PHONY : src/iteration_methods/simple_iteration.cpp.s
 
+src/iteration_methods/simple_relaxation.o: src/iteration_methods/simple_relaxation.cpp.o
+.PHONY : src/iteration_methods/simple_relaxation.o
+
+# target to build an object file
+src/iteration_methods/simple_relaxation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o
+.PHONY : src/iteration_methods/simple_relaxation.cpp.o
+
+src/iteration_methods/simple_relaxation.i: src/iteration_methods/simple_relaxation.cpp.i
+.PHONY : src/iteration_methods/simple_relaxation.i
+
+# target to preprocess a source file
+src/iteration_methods/simple_relaxation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.i
+.PHONY : src/iteration_methods/simple_relaxation.cpp.i
+
+src/iteration_methods/simple_relaxation.s: src/iteration_methods/simple_relaxation.cpp.s
+.PHONY : src/iteration_methods/simple_relaxation.s
+
+# target to generate assembly for a file
+src/iteration_methods/simple_relaxation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s
+.PHONY : src/iteration_methods/simple_relaxation.cpp.s
+
 src/lab3.o: src/lab3.cpp.o
 .PHONY : src/lab3.o
 
@@ -321,6 +345,9 @@ help:
 	@echo "... src/iteration_methods/simple_iteration.o"
 	@echo "... src/iteration_methods/simple_iteration.i"
 	@echo "... src/iteration_methods/simple_iteration.s"
+	@echo "... src/iteration_methods/simple_relaxation.o"
+	@echo "... src/iteration_methods/simple_relaxation.i"
+	@echo "... src/iteration_methods/simple_relaxation.s"
 	@echo "... src/lab3.o"
 	@echo "... src/lab3.i"
 	@echo "... src/lab3.s"
