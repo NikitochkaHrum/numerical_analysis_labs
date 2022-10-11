@@ -1,3 +1,4 @@
+#pragma once
 #include "../matrices.h"
 
 ld sign(ld x);

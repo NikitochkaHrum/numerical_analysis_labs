@@ -1,4 +1,6 @@
-#include "../matrices.h"
+#pragma once
+#include "calc_params.h"
+#include "method_log/method_info.h"
 
 const ld GAMMA = 0.9;
 

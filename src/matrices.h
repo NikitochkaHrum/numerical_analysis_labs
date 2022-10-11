@@ -1,5 +1,4 @@
 #pragma once
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -21,6 +20,7 @@ public:
     Vec operator+(Vec b); // сложение векторов
     Vec operator-(Vec b); // вычитание векторов
     ld operator[](int idx); // индексация
+    Vec& operator=(const Vec& b);
 };
 
 class Mat

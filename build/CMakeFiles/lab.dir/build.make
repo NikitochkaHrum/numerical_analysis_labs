@@ -69,19 +69,19 @@ include CMakeFiles/lab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab.dir/flags.make
 
-CMakeFiles/lab.dir/src/lab2.cpp.o: CMakeFiles/lab.dir/flags.make
-CMakeFiles/lab.dir/src/lab2.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/lab2.cpp
-CMakeFiles/lab.dir/src/lab2.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab.dir/src/lab2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/lab2.cpp.o -MF CMakeFiles/lab.dir/src/lab2.cpp.o.d -o CMakeFiles/lab.dir/src/lab2.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab2.cpp
+CMakeFiles/lab.dir/src/lab3.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/lab3.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp
+CMakeFiles/lab.dir/src/lab3.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab.dir/src/lab3.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/lab3.cpp.o -MF CMakeFiles/lab.dir/src/lab3.cpp.o.d -o CMakeFiles/lab.dir/src/lab3.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp
 
-CMakeFiles/lab.dir/src/lab2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/lab2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/lab2.cpp > CMakeFiles/lab.dir/src/lab2.cpp.i
+CMakeFiles/lab.dir/src/lab3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/lab3.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp > CMakeFiles/lab.dir/src/lab3.cpp.i
 
-CMakeFiles/lab.dir/src/lab2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/lab2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/lab2.cpp -o CMakeFiles/lab.dir/src/lab2.cpp.s
+CMakeFiles/lab.dir/src/lab3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/lab3.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp -o CMakeFiles/lab.dir/src/lab3.cpp.s
 
 CMakeFiles/lab.dir/src/matrices.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/matrices.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp
@@ -155,7 +155,7 @@ CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.s: cmake_for
 
 # Object files for target lab
 lab_OBJECTS = \
-"CMakeFiles/lab.dir/src/lab2.cpp.o" \
+"CMakeFiles/lab.dir/src/lab3.cpp.o" \
 "CMakeFiles/lab.dir/src/matrices.cpp.o" \
 "CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o" \
@@ -165,7 +165,7 @@ lab_OBJECTS = \
 # External object files for target lab
 lab_EXTERNAL_OBJECTS =
 
-lab: CMakeFiles/lab.dir/src/lab2.cpp.o
+lab: CMakeFiles/lab.dir/src/lab3.cpp.o
 lab: CMakeFiles/lab.dir/src/matrices.cpp.o
 lab: CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o

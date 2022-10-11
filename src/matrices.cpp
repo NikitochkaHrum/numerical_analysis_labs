@@ -78,6 +78,12 @@ ld Vec::operator[](int idx) { // индексация
     return data[idx];
 }
 
+Vec& Vec::operator=(const Vec& b){
+    data=b.data;
+    n=b.n;
+    return *this;
+}
+
 Mat::Mat(){
     data.resize(0);
     n=0;

@@ -225,29 +225,29 @@ src/iteration_methods/simple_iteration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.s
 .PHONY : src/iteration_methods/simple_iteration.cpp.s
 
-src/lab2.o: src/lab2.cpp.o
-.PHONY : src/lab2.o
+src/lab3.o: src/lab3.cpp.o
+.PHONY : src/lab3.o
 
 # target to build an object file
-src/lab2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab2.cpp.o
-.PHONY : src/lab2.cpp.o
+src/lab3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab3.cpp.o
+.PHONY : src/lab3.cpp.o
 
-src/lab2.i: src/lab2.cpp.i
-.PHONY : src/lab2.i
+src/lab3.i: src/lab3.cpp.i
+.PHONY : src/lab3.i
 
 # target to preprocess a source file
-src/lab2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab2.cpp.i
-.PHONY : src/lab2.cpp.i
+src/lab3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab3.cpp.i
+.PHONY : src/lab3.cpp.i
 
-src/lab2.s: src/lab2.cpp.s
-.PHONY : src/lab2.s
+src/lab3.s: src/lab3.cpp.s
+.PHONY : src/lab3.s
 
 # target to generate assembly for a file
-src/lab2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab2.cpp.s
-.PHONY : src/lab2.cpp.s
+src/lab3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab3.cpp.s
+.PHONY : src/lab3.cpp.s
 
 src/matrices.o: src/matrices.cpp.o
 .PHONY : src/matrices.o
@@ -294,9 +294,9 @@ help:
 	@echo "... src/iteration_methods/simple_iteration.o"
 	@echo "... src/iteration_methods/simple_iteration.i"
 	@echo "... src/iteration_methods/simple_iteration.s"
-	@echo "... src/lab2.o"
-	@echo "... src/lab2.i"
-	@echo "... src/lab2.s"
+	@echo "... src/lab3.o"
+	@echo "... src/lab3.i"
+	@echo "... src/lab3.s"
 	@echo "... src/matrices.o"
 	@echo "... src/matrices.i"
 	@echo "... src/matrices.s"

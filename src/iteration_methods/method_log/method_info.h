@@ -1,3 +1,4 @@
+#pragma once
 #include "../../matrices.h"
 #include "../calc_params.h"
 
