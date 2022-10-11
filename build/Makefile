@@ -177,6 +177,30 @@ src/iteration_methods/calc_params.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.s
 .PHONY : src/iteration_methods/calc_params.cpp.s
 
+src/iteration_methods/gradient_descent.o: src/iteration_methods/gradient_descent.cpp.o
+.PHONY : src/iteration_methods/gradient_descent.o
+
+# target to build an object file
+src/iteration_methods/gradient_descent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o
+.PHONY : src/iteration_methods/gradient_descent.cpp.o
+
+src/iteration_methods/gradient_descent.i: src/iteration_methods/gradient_descent.cpp.i
+.PHONY : src/iteration_methods/gradient_descent.i
+
+# target to preprocess a source file
+src/iteration_methods/gradient_descent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.i
+.PHONY : src/iteration_methods/gradient_descent.cpp.i
+
+src/iteration_methods/gradient_descent.s: src/iteration_methods/gradient_descent.cpp.s
+.PHONY : src/iteration_methods/gradient_descent.s
+
+# target to generate assembly for a file
+src/iteration_methods/gradient_descent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.s
+.PHONY : src/iteration_methods/gradient_descent.cpp.s
+
 src/iteration_methods/method_log/method_info.o: src/iteration_methods/method_log/method_info.cpp.o
 .PHONY : src/iteration_methods/method_log/method_info.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... src/iteration_methods/calc_params.o"
 	@echo "... src/iteration_methods/calc_params.i"
 	@echo "... src/iteration_methods/calc_params.s"
+	@echo "... src/iteration_methods/gradient_descent.o"
+	@echo "... src/iteration_methods/gradient_descent.i"
+	@echo "... src/iteration_methods/gradient_descent.s"
 	@echo "... src/iteration_methods/method_log/method_info.o"
 	@echo "... src/iteration_methods/method_log/method_info.i"
 	@echo "... src/iteration_methods/method_log/method_info.s"

@@ -17,10 +17,12 @@ public:
     ld cubic_norm(); // максимальный элемент
     ld octahedral_norm(); // сумма элементов
     ld euclidian_norm(); // корень из суммы квадратов
-    Vec operator+(Vec b); // сложение векторов
-    Vec operator-(Vec b); // вычитание векторов
+    ld scalar_prod(Vec b); // скалярное произведение
+    Vec operator+(const Vec b); // сложение векторов
+    Vec operator-(const Vec b); // вычитание векторов
+    Vec operator*(const ld x); // умножение на число
     ld operator[](int idx); // индексация
-    Vec& operator=(const Vec& b);
+    Vec& operator=(const Vec& b); // присвоение
 };
 
 class Mat
@@ -48,10 +50,10 @@ public:
     void calc_LUP(bool log=true);
     ld determinant(); // определитель
     Mat inverse(); // обратная матрица
-    Mat operator *(Mat r); // умножение матриц
-    Mat operator +(Mat b); // сложение матриц
-    Mat operator -(Mat b); // вычитание матрицы из матрицы
-    Vec operator *(Vec v); // умножение матрицы на вектор
+    Mat operator *(const Mat r); // умножение матриц
+    Mat operator +(const Mat b); // сложение матриц
+    Mat operator -(const Mat b); // вычитание матрицы из матрицы
+    Vec operator *(const Vec v); // умножение матрицы на вектор
     vector<ld> operator [](int idx); // индексация
 };
 

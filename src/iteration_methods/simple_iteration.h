@@ -4,6 +4,6 @@
 
 const ld GAMMA = 0.9;
 
-Vec simple_iteration(Mat a, Vec b, Vec init, Vec solution, ld eps);
+Vec simple_iteration(Mat a, Vec b, Vec init, Vec solution, ld EPS);
 
-int simple_iteration_estimate_n_iterations(ld eps, ld cond);
+int simple_iteration_estimate_n_iterations(ld EPS, ld cond);

@@ -1,5 +1,6 @@
 #include "direct_methods/direct_sqrt.h"
 #include "iteration_methods/simple_iteration.h"
+#include "iteration_methods/gradient_descent.h"
 
 int main(){
     const double EPS = 1e-4;
@@ -15,6 +16,9 @@ int main(){
     vector<ld> bb(n);
     for(int i=0; i<n; i++) bb[i]=i+1;
     Vec b(bb);
+    cout << "A:\n";
+    a.print();
+    cout << "\n";
     cout << "b:\n";
     b.print();
     cout << '\n';
@@ -22,10 +26,16 @@ int main(){
     cout << "Метод прямого квадратного корня:\nX:\n";
     solution.print();
     cout << '\n';
-
-    cout << "Метод простой итерации:\n";
+    cout << "Норма матрицы:\n";
+    cout << a.matrixnormeuk() << '\n';
+    // cout << "\nМетод простой итерации:\n";
     Vec x = simple_iteration(a, b, b, solution, EPS);
     cout << "X:\n";
     x.print();
     cout << '\n';
+    x = gradient_descent(a, b, b, solution, EPS);
+    cout << "X:\n";
+    x.print();
+    cout << '\n';
+    
 }

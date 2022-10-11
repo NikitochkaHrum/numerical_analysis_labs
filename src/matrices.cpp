@@ -54,7 +54,18 @@ ld Vec::euclidian_norm() { // корень из суммы квадратов
     return sqrt(s);
 }
 
-Vec Vec::operator +(Vec b) { // сложение векторов
+ld Vec::scalar_prod(Vec b){
+    if (n != b.n) {
+        throw invalid_argument("incomparable vector sizes");
+    }
+    ld res=0;
+    for(int i=0; i<n; i++){
+        res+=data[i]*b[i];
+    }
+    return res;
+}
+
+Vec Vec::operator +(const Vec b) { // сложение векторов
     if (data.size() != b.data.size()) {
         throw invalid_argument("incomparable vector sizes");
     }
@@ -64,13 +75,20 @@ Vec Vec::operator +(Vec b) { // сложение векторов
     return Vec(res);
 }
 
-Vec Vec::operator -(Vec b) { // вычитание векторов
+Vec Vec::operator -(const Vec b) { // вычитание векторов
     if (data.size() != b.data.size()) {
         throw invalid_argument("incomparable vector sizes");
     }
     vector<ld> res(data.size());
     for (int i = 0; i < data.size(); i++)
         res[i] = data[i] - b.data[i];
+    return Vec(res);
+}
+
+Vec Vec::operator*(const ld x){
+    vector<ld> res(n);
+    for(int i=0; i<n; i++)
+        res[i]=data[i]*x;
     return Vec(res);
 }
 
@@ -342,7 +360,7 @@ Mat Mat::inverse() { // обратная матрица
     return Mat(inv);
 }
 
-Mat Mat::operator +(Mat b) { // сложение матриц
+Mat Mat::operator +(const Mat b) { // сложение матриц
     if (data.size() != b.data.size() || data.empty() || data[0].size() != b.data[0].size()) {
         throw invalid_argument("incomparable matrix sizes");
     }
@@ -356,7 +374,7 @@ Mat Mat::operator +(Mat b) { // сложение матриц
     return Mat(res);
 }
 
-Mat Mat::operator -(Mat b) { // сложение матриц
+Mat Mat::operator -(const Mat b) { // сложение матриц
     if (data.size() != b.data.size() || data.empty() || data[0].size() != b.data[0].size()) {
         throw invalid_argument("incomparable matrix sizes");
     }
@@ -370,7 +388,7 @@ Mat Mat::operator -(Mat b) { // сложение матриц
     return Mat(res);
 }
 
-Mat Mat::operator *(Mat r) { // умножение матриц
+Mat Mat::operator *(const Mat r) { // умножение матриц
     if (data.empty() || r.data.empty() || data[0].size() != r.data.size()) {
         throw invalid_argument("incomparable matrix sizes");
     }
@@ -385,7 +403,7 @@ Mat Mat::operator *(Mat r) { // умножение матриц
     return Mat(res);
 }
 
-Vec Mat::operator *(Vec v) { // умножение матрицы на вектор
+Vec Mat::operator *(const Vec v) { // умножение матрицы на вектор
     if (data.empty() || data[0].size() != v.data.size()) {
         throw invalid_argument("incomparable matrix and vector sizes");
     }
