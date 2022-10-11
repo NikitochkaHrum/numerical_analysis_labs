@@ -1,4 +1,4 @@
-#include "methods.h"
+#include "direct_sqrt.h"
 
 ld sign(ld x){
     return (x > 0) - (x < 0);

@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lab::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab-Debug-b592c41c045d4c93d5c6.json",
+					"jsonFile" : "target-lab-Debug-461eb7af103cdb017f6e.json",
 					"name" : "lab",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }

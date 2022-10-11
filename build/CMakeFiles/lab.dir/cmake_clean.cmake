@@ -1,10 +1,16 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o"
+  "CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o.d"
+  "CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o"
+  "CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o.d"
+  "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o"
+  "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d"
+  "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o"
+  "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o.d"
   "CMakeFiles/lab.dir/src/lab2.cpp.o"
   "CMakeFiles/lab.dir/src/lab2.cpp.o.d"
   "CMakeFiles/lab.dir/src/matrices.cpp.o"
   "CMakeFiles/lab.dir/src/matrices.cpp.o.d"
-  "CMakeFiles/lab.dir/src/methods.cpp.o"
-  "CMakeFiles/lab.dir/src/methods.cpp.o.d"
   "lab"
   "lab.pdb"
 )

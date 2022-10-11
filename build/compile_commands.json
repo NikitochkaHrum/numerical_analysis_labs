@@ -11,7 +11,22 @@
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
-  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/methods.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/methods.cpp",
-  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/methods.cpp"
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/direct_sqrt.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/direct_sqrt.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp"
 }
 ]
