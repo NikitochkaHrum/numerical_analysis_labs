@@ -5,7 +5,7 @@
 #include "iteration_methods/conj_grad.h"
 
 int main(){
-    const double EPS = 1e-4;
+    const ld EPS = 1e-4;
 
 
     freopen("/home/pna/Documents/study/numerical_analysis_labs/input.txt", "r", stdin);
