@@ -8,8 +8,8 @@ int main(){
     const ld EPS = 1e-4;
 
 
-    freopen("/home/pna/Documents/study/numerical_analysis_labs/input.txt", "r", stdin);
-    freopen("/home/pna/Documents/study/numerical_analysis_labs/output.txt", "w", stdout);
+    freopen("/home/pna/Documents/study/numerical_analysis_labs/input25a.txt", "r", stdin);
+    freopen("/home/pna/Documents/study/numerical_analysis_labs/output25a.txt", "w", stdout);
     int n;
     cin >> n;
     Mat a (vector<vector<ld>>(n, vector<ld>(n)));
@@ -18,6 +18,7 @@ int main(){
     vector<ld> bb(n);
     for(int i=0; i<n; i++) bb[i]=i+1;
     Vec b(bb);
+                    cout << "Вариант 9А.\n"; // ВАРИАНТ 
     cout << "A:\n";
     a.print();
     cout << "\n";

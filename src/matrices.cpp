@@ -22,8 +22,12 @@ Vec::Vec(vector<ld> data) {
 }
 
 void Vec::print(){ // вывод вектора
-    for (auto el : data)
-        cout << el << ' ';
+    cout << fixed;
+    for (auto el : this->data){
+        //if (abs(el)<eps) cout << setw(12)  << 0 << ' ';
+        //else 
+            cout << setw(12)  << scientific << el << ' ';
+    }
     cout << '\n';
 }
 
@@ -130,9 +134,12 @@ Mat::Mat(vector<vector<ld>> data) {
 }
 
 void Mat::print(){ // вывод матрицы
+    cout << fixed;
     for (int i = 0; i < data.size(); i++) {
         for (int j = 0; j < data[0].size(); j++) {
-            cout << data[i][j] << ' ';
+            //if (abs(data[i][j])<eps ) cout << setw(20)  << 0 << ' ';
+            //else 
+                cout << setw(20)  << scientific << data[i][j] << ' ';
         }
         cout << '\n';
     }
