@@ -8,8 +8,8 @@ int main(){
     const ld EPS = 1e-4;
 
 
-    freopen("/home/pna/Documents/study/numerical_analysis_labs/input25a.txt", "r", stdin);
-    freopen("/home/pna/Documents/study/numerical_analysis_labs/output25a.txt", "w", stdout);
+    freopen("/home/pna/Documents/study/numerical_analysis_labs/input.txt", "r", stdin);
+    freopen("/home/pna/Documents/study/numerical_analysis_labs/output.txt", "w", stdout);
     int n;
     cin >> n;
     Mat a (vector<vector<ld>>(n, vector<ld>(n)));
@@ -30,7 +30,7 @@ int main(){
     solution.print();
     cout << '\n';
     cout << "Норма матрицы:\n";
-    cout << a.matrixnormeuk() << '\n';
+    cout << a.matrixnormeuk(true) << '\n';
     // cout << "\nМетод простой итерации:\n";
     Vec x = simple_iteration(a, b, b, solution, EPS);
     cout << '\n';
@@ -39,8 +39,8 @@ int main(){
     x = simple_relaxation(a, b, b, solution, EPS);
     cout << '\n';
     x = conj_grad(a, b, b, solution, EPS);
-    ld cond = a.cond(3);
-    cout << "\nЧисло обусловленности = " << a.cond(3) << "\nТеоретическая оценка числа итераций:\n";
+    ld cond = a.cond(3, true);
+    cout << "\nЧисло обусловленности = " << cond << "\nТеоретическая оценка числа итераций:\n";
     cout << "\tМетоды простой итерации и градиентного спуска: " << simple_iteration_estimate_n_iterations(EPS, cond) << '\n';
     cout << "\tМетод простой релаксации: " << simple_relaxation_estimate_n_iterations(EPS, cond) << '\n';
     cout << "\tМетод сопряжённых градиентов: " << conj_grad_estimate_n_iterations(EPS, cond) << '\n';

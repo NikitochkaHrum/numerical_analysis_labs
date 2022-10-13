@@ -1,8 +1,8 @@
 #include "simple_iteration.h"
 
 Vec simple_iteration(Mat a, Vec b, Vec init, Vec solution, ld EPS){
-   	print_method_header("Метод простой итерации", simple_iteration_estimate_n_iterations(EPS, a.cond(3)));
-    const ld tau = GAMMA * 2 / a.matrixnormeuk();
+   	print_method_header("Метод простой итерации", simple_iteration_estimate_n_iterations(EPS, a.cond(3, true)));
+    const ld tau = GAMMA * 2 / a.matrixnormeuk(true);
     Vec* x3 = new Vec(init.data);
     Vec* x2 = nullptr;
     Vec* x1 = nullptr;

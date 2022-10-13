@@ -42,8 +42,8 @@ public:
     Mat transpose(); // транспонирование матрицы
     ld matrixnormone(); //считает сумму по строкам
     ld matrixnormtwo(); //считает сумму по столбцам
-    ld matrixnormeuk(); //корень суммы квадратов всех элементов
-    ld cond(int a); // число обусловленности
+    ld matrixnormeuk(bool symmetric=false); //корень суммы квадратов всех элементов
+    ld cond(int a, bool symmetric=false); // число обусловленности
     pair<int, int> maxNonDiagonal();
     ld maxDiagonal();
     ld sumOfNonDiagonalSquares();

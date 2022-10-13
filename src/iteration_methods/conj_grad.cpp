@@ -1,7 +1,7 @@
 #include "conj_grad.h"
 
 Vec conj_grad(Mat a, Vec b, Vec init, Vec solution, ld EPS){
-    print_method_header("Метод сопряженных градиентов", conj_grad_estimate_n_iterations(EPS, a.cond(3)));
+    print_method_header("Метод сопряженных градиентов", conj_grad_estimate_n_iterations(EPS, a.cond(3, true)));
 
 	ld tau = 0, tauprev = 0, alpha = 1, alphaprev = 1;
 

@@ -1,7 +1,7 @@
 #include "gradient_descent.h"
 
 Vec gradient_descent(Mat a, Vec b, Vec init, Vec solution, ld EPS){
-    print_method_header("Метод наискорейшего спуска", gradient_descent_estimate_n_iterations(EPS, a.cond(3)));
+    print_method_header("Метод наискорейшего спуска", gradient_descent_estimate_n_iterations(EPS, a.cond(3, true)));
     ld tau, r_err;
 
 	Vec* x3 = new Vec(init.data);

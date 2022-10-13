@@ -23,7 +23,7 @@ Vec simple_relaxation(Mat a, Vec b, Vec init, Vec solution, ld EPS){
 
 Vec get_solution_simple_relaxation(Mat a, Vec b, Vec init, Vec solution, ld EPS, ld omega, int& iter_count, bool log){
     if (log)
-		print_method_header("Метод ПВР", simple_relaxation_estimate_n_iterations(EPS, a.cond(3)));
+		print_method_header("Метод ПВР", simple_relaxation_estimate_n_iterations(EPS, a.cond(3, true)));
 	
 
     Vec * x3 = new Vec(init.data); // Задаем решению начальное приблежение

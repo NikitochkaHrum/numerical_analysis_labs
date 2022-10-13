@@ -196,9 +196,12 @@ ld Mat::matrixnormtwo(){ //считает сумму по столбцам
     return max;
 }
 
-ld Mat::matrixnormeuk(){ //корень суммы квадратов всех элементов
-    Mat A = (this->transpose()) * (*this);
-
+ld Mat::matrixnormeuk(bool symmetric){ //корень суммы квадратов всех элементов
+    Mat A;
+    if(symmetric)
+        A=*this;
+    else
+        A = (this->transpose()) * (*this);
     while (sqrt(A.sumOfNonDiagonalSquares()) > eps) {
         ld theta, C, S, CS;
         auto p = A.maxNonDiagonal();
@@ -222,17 +225,19 @@ ld Mat::matrixnormeuk(){ //корень суммы квадратов всех �
 
         A.data[I][J] = A.data[J][I] = 0;
     }
+    if(symmetric)
+        return A.maxDiagonal();
     return sqrt(A.maxDiagonal());
 }
 
-ld Mat::cond(int a){ // число обусловленности
+ld Mat::cond(int a, bool symmetric){ // число обусловленности
     switch (a) {
     case 1:
         return (this->inverse()).matrixnormone() * this->matrixnormone();
     case 2:
         return (this->inverse()).matrixnormtwo() * this->matrixnormtwo();
     case 3:
-        return (this->inverse()).matrixnormeuk() * this->matrixnormeuk();
+        return symmetric ? (this->inverse()).matrixnormeuk(true) * this->matrixnormeuk(true) : (this->inverse()).matrixnormeuk() * this->matrixnormeuk();
     default:
         return -1;
     }
