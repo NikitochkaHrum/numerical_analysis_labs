@@ -13,7 +13,7 @@ tuple<ld, ld, ld, ld> calc_params(Vec* x1, Vec* x2, Vec* x3, Mat& a, Vec& b, Vec
     // Относительная погрешность решения
     ld relative_error = (solution - (*x3)).euclidian_norm() / solution_norm;
     // Норма вектора невязки
-    double residual_norm = (a * (*x3) - b).euclidian_norm();
+    ld residual_norm = (a * (*x3) - b).euclidian_norm();
 
     return { transition_matrix_estimate, residual_norm, relative_error, error_estimate };
 }
