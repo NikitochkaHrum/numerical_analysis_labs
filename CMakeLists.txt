@@ -19,5 +19,6 @@ add_executable(lab  src/lab4.cpp
                     src/non_lynear_systems/input_data.cpp
                     src/non_lynear_systems/newton_method.cpp
                     src/non_lynear_systems/simple_iteration.cpp
+                    src/non_lynear_systems/gradient_descent.cpp
                     src/non_lynear_systems/method_log/method_info.cpp
                     )

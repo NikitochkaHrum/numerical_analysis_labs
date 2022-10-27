@@ -251,10 +251,24 @@ CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/simple_iteration.cpp -o CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.s
 
+CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp
+CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp
+
+CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp > CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.i
+
+CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp -o CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.s
+
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.i: cmake_force
@@ -280,6 +294,7 @@ lab_OBJECTS = \
 "CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o" \
 "CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o" \
 "CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o" \
+"CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o" \
 "CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o"
 
 # External object files for target lab
@@ -298,10 +313,11 @@ lab: CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o
+lab: CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o
 lab: CMakeFiles/lab.dir/build.make
 lab: CMakeFiles/lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

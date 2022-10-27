@@ -32,7 +32,7 @@ void print_method_header_with_jacobi(const string& method_name)
 void print_method_header_with_additional_iterations(const std::string& method_name)
 {
     print_method_header_with_error(method_name, false);
-	cout << "|" << setw(16) << "Альфа"
+	cout << "|" << setw(21) << "Альфа"
 		<< "|" << setw(6)  << "k" << '\n';
 	cout << "-----------------------------------------------------------------------------------------------------------------------------------------\n";
 }

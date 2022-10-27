@@ -369,6 +369,30 @@ src/non_lynear_systems/calc_params.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.s
 .PHONY : src/non_lynear_systems/calc_params.cpp.s
 
+src/non_lynear_systems/gradient_descent.o: src/non_lynear_systems/gradient_descent.cpp.o
+.PHONY : src/non_lynear_systems/gradient_descent.o
+
+# target to build an object file
+src/non_lynear_systems/gradient_descent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o
+.PHONY : src/non_lynear_systems/gradient_descent.cpp.o
+
+src/non_lynear_systems/gradient_descent.i: src/non_lynear_systems/gradient_descent.cpp.i
+.PHONY : src/non_lynear_systems/gradient_descent.i
+
+# target to preprocess a source file
+src/non_lynear_systems/gradient_descent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.i
+.PHONY : src/non_lynear_systems/gradient_descent.cpp.i
+
+src/non_lynear_systems/gradient_descent.s: src/non_lynear_systems/gradient_descent.cpp.s
+.PHONY : src/non_lynear_systems/gradient_descent.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/gradient_descent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.s
+.PHONY : src/non_lynear_systems/gradient_descent.cpp.s
+
 src/non_lynear_systems/input_data.o: src/non_lynear_systems/input_data.cpp.o
 .PHONY : src/non_lynear_systems/input_data.o
 
@@ -504,6 +528,9 @@ help:
 	@echo "... src/non_lynear_systems/calc_params.o"
 	@echo "... src/non_lynear_systems/calc_params.i"
 	@echo "... src/non_lynear_systems/calc_params.s"
+	@echo "... src/non_lynear_systems/gradient_descent.o"
+	@echo "... src/non_lynear_systems/gradient_descent.i"
+	@echo "... src/non_lynear_systems/gradient_descent.s"
 	@echo "... src/non_lynear_systems/input_data.o"
 	@echo "... src/non_lynear_systems/input_data.i"
 	@echo "... src/non_lynear_systems/input_data.s"

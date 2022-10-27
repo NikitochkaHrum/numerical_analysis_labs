@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pna/Documents/study/numerical_analysis_labs/src/lab4.cpp" "CMakeFiles/lab.dir/src/lab4.cpp.o" "gcc" "CMakeFiles/lab.dir/src/lab4.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp" "CMakeFiles/lab.dir/src/matrices.cpp.o" "gcc" "CMakeFiles/lab.dir/src/matrices.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/calc_params.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/input_data.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/newton_method.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o.d"

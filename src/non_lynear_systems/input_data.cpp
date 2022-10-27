@@ -1,10 +1,5 @@
 #include "input_data.h"
 
-ld F(function<ld(ld, ld)> a1, function<ld(ld, ld)> a2, ld x, ld y){
-    ld val1 = a1(x, y), val2= a2(x, y);
-    return val1*val1 + val2*val2;
-}
-
 ld f1_v9(ld x, ld y){
     return cos(x + 0.5) - y - 2.;
 }
@@ -35,6 +30,14 @@ ld fi1_v25(ld x, ld y){
 
 ld fi2_v25(ld x, ld y){
     return (sin(x) - 1.6)/2.;
+}
+
+ld F_v9(ld x, ld y){
+    return pow(f1_v9(x, y), 2) +  pow(f2_v9(x, y), 2);
+}
+
+ld F_v25(ld x, ld y){
+    return pow(f1_v25(x, y), 2) +  pow(f2_v25(x, y), 2);
 }
 
 ld der_fi1_x_v9(ld x, ld y){
@@ -99,4 +102,20 @@ ld der_f2_x_v25(ld x, ld y){
 
 ld der_f2_y_v25(ld x, ld y){
     return -2;
+}
+
+ld der_F_x_v9(ld x, ld y){
+    return 2*f1_v9(x, y)*der_f1_x_v9(x, y) + 2*f2_v9(x, y)*der_f2_x_v9(x, y);
+}
+
+ld der_F_y_v9(ld x, ld y){
+    return 2*f1_v9(x, y)*der_f1_y_v9(x, y) + 2*f2_v9(x, y)*der_f2_y_v9(x, y);
+}
+
+ld der_F_x_v25(ld x, ld y){
+    return 2*f1_v25(x, y)*der_f1_x_v25(x, y) + 2*f2_v25(x, y)*der_f2_x_v25(x, y);
+}
+
+ld der_F_y_v25(ld x, ld y){
+    return 2*f1_v25(x, y)*der_f1_y_v25(x, y) + 2*f2_v25(x, y)*der_f2_y_v25(x, y);
 }

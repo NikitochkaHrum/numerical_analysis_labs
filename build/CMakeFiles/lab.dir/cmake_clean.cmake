@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab.dir/src/matrices.cpp.o.d"
   "CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o"
   "CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o.d"
+  "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o"
+  "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o.d"
   "CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o"
   "CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o.d"
   "CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o"
