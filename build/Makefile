@@ -297,29 +297,29 @@ src/iteration_methods/simple_relaxation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s
 .PHONY : src/iteration_methods/simple_relaxation.cpp.s
 
-src/lab3.o: src/lab3.cpp.o
-.PHONY : src/lab3.o
+src/lab4.o: src/lab4.cpp.o
+.PHONY : src/lab4.o
 
 # target to build an object file
-src/lab3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab3.cpp.o
-.PHONY : src/lab3.cpp.o
+src/lab4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab4.cpp.o
+.PHONY : src/lab4.cpp.o
 
-src/lab3.i: src/lab3.cpp.i
-.PHONY : src/lab3.i
+src/lab4.i: src/lab4.cpp.i
+.PHONY : src/lab4.i
 
 # target to preprocess a source file
-src/lab3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab3.cpp.i
-.PHONY : src/lab3.cpp.i
+src/lab4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab4.cpp.i
+.PHONY : src/lab4.cpp.i
 
-src/lab3.s: src/lab3.cpp.s
-.PHONY : src/lab3.s
+src/lab4.s: src/lab4.cpp.s
+.PHONY : src/lab4.s
 
 # target to generate assembly for a file
-src/lab3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab3.cpp.s
-.PHONY : src/lab3.cpp.s
+src/lab4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab4.cpp.s
+.PHONY : src/lab4.cpp.s
 
 src/matrices.o: src/matrices.cpp.o
 .PHONY : src/matrices.o
@@ -344,6 +344,126 @@ src/matrices.s: src/matrices.cpp.s
 src/matrices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/matrices.cpp.s
 .PHONY : src/matrices.cpp.s
+
+src/non_lynear_systems/calc_params.o: src/non_lynear_systems/calc_params.cpp.o
+.PHONY : src/non_lynear_systems/calc_params.o
+
+# target to build an object file
+src/non_lynear_systems/calc_params.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o
+.PHONY : src/non_lynear_systems/calc_params.cpp.o
+
+src/non_lynear_systems/calc_params.i: src/non_lynear_systems/calc_params.cpp.i
+.PHONY : src/non_lynear_systems/calc_params.i
+
+# target to preprocess a source file
+src/non_lynear_systems/calc_params.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.i
+.PHONY : src/non_lynear_systems/calc_params.cpp.i
+
+src/non_lynear_systems/calc_params.s: src/non_lynear_systems/calc_params.cpp.s
+.PHONY : src/non_lynear_systems/calc_params.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/calc_params.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.s
+.PHONY : src/non_lynear_systems/calc_params.cpp.s
+
+src/non_lynear_systems/input_data.o: src/non_lynear_systems/input_data.cpp.o
+.PHONY : src/non_lynear_systems/input_data.o
+
+# target to build an object file
+src/non_lynear_systems/input_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o
+.PHONY : src/non_lynear_systems/input_data.cpp.o
+
+src/non_lynear_systems/input_data.i: src/non_lynear_systems/input_data.cpp.i
+.PHONY : src/non_lynear_systems/input_data.i
+
+# target to preprocess a source file
+src/non_lynear_systems/input_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.i
+.PHONY : src/non_lynear_systems/input_data.cpp.i
+
+src/non_lynear_systems/input_data.s: src/non_lynear_systems/input_data.cpp.s
+.PHONY : src/non_lynear_systems/input_data.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/input_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.s
+.PHONY : src/non_lynear_systems/input_data.cpp.s
+
+src/non_lynear_systems/method_log/method_info.o: src/non_lynear_systems/method_log/method_info.cpp.o
+.PHONY : src/non_lynear_systems/method_log/method_info.o
+
+# target to build an object file
+src/non_lynear_systems/method_log/method_info.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o
+.PHONY : src/non_lynear_systems/method_log/method_info.cpp.o
+
+src/non_lynear_systems/method_log/method_info.i: src/non_lynear_systems/method_log/method_info.cpp.i
+.PHONY : src/non_lynear_systems/method_log/method_info.i
+
+# target to preprocess a source file
+src/non_lynear_systems/method_log/method_info.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.i
+.PHONY : src/non_lynear_systems/method_log/method_info.cpp.i
+
+src/non_lynear_systems/method_log/method_info.s: src/non_lynear_systems/method_log/method_info.cpp.s
+.PHONY : src/non_lynear_systems/method_log/method_info.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/method_log/method_info.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.s
+.PHONY : src/non_lynear_systems/method_log/method_info.cpp.s
+
+src/non_lynear_systems/newton_method.o: src/non_lynear_systems/newton_method.cpp.o
+.PHONY : src/non_lynear_systems/newton_method.o
+
+# target to build an object file
+src/non_lynear_systems/newton_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o
+.PHONY : src/non_lynear_systems/newton_method.cpp.o
+
+src/non_lynear_systems/newton_method.i: src/non_lynear_systems/newton_method.cpp.i
+.PHONY : src/non_lynear_systems/newton_method.i
+
+# target to preprocess a source file
+src/non_lynear_systems/newton_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.i
+.PHONY : src/non_lynear_systems/newton_method.cpp.i
+
+src/non_lynear_systems/newton_method.s: src/non_lynear_systems/newton_method.cpp.s
+.PHONY : src/non_lynear_systems/newton_method.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/newton_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.s
+.PHONY : src/non_lynear_systems/newton_method.cpp.s
+
+src/non_lynear_systems/simple_iteration.o: src/non_lynear_systems/simple_iteration.cpp.o
+.PHONY : src/non_lynear_systems/simple_iteration.o
+
+# target to build an object file
+src/non_lynear_systems/simple_iteration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o
+.PHONY : src/non_lynear_systems/simple_iteration.cpp.o
+
+src/non_lynear_systems/simple_iteration.i: src/non_lynear_systems/simple_iteration.cpp.i
+.PHONY : src/non_lynear_systems/simple_iteration.i
+
+# target to preprocess a source file
+src/non_lynear_systems/simple_iteration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.i
+.PHONY : src/non_lynear_systems/simple_iteration.cpp.i
+
+src/non_lynear_systems/simple_iteration.s: src/non_lynear_systems/simple_iteration.cpp.s
+.PHONY : src/non_lynear_systems/simple_iteration.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/simple_iteration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.s
+.PHONY : src/non_lynear_systems/simple_iteration.cpp.s
 
 # Help Target
 help:
@@ -375,12 +495,27 @@ help:
 	@echo "... src/iteration_methods/simple_relaxation.o"
 	@echo "... src/iteration_methods/simple_relaxation.i"
 	@echo "... src/iteration_methods/simple_relaxation.s"
-	@echo "... src/lab3.o"
-	@echo "... src/lab3.i"
-	@echo "... src/lab3.s"
+	@echo "... src/lab4.o"
+	@echo "... src/lab4.i"
+	@echo "... src/lab4.s"
 	@echo "... src/matrices.o"
 	@echo "... src/matrices.i"
 	@echo "... src/matrices.s"
+	@echo "... src/non_lynear_systems/calc_params.o"
+	@echo "... src/non_lynear_systems/calc_params.i"
+	@echo "... src/non_lynear_systems/calc_params.s"
+	@echo "... src/non_lynear_systems/input_data.o"
+	@echo "... src/non_lynear_systems/input_data.i"
+	@echo "... src/non_lynear_systems/input_data.s"
+	@echo "... src/non_lynear_systems/method_log/method_info.o"
+	@echo "... src/non_lynear_systems/method_log/method_info.i"
+	@echo "... src/non_lynear_systems/method_log/method_info.s"
+	@echo "... src/non_lynear_systems/newton_method.o"
+	@echo "... src/non_lynear_systems/newton_method.i"
+	@echo "... src/non_lynear_systems/newton_method.s"
+	@echo "... src/non_lynear_systems/simple_iteration.o"
+	@echo "... src/non_lynear_systems/simple_iteration.i"
+	@echo "... src/non_lynear_systems/simple_iteration.s"
 .PHONY : help
 
 

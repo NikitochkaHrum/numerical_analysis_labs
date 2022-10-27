@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
-  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab3.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp",
-  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab3.cpp"
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab4.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab4.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab4.cpp"
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
@@ -43,5 +43,30 @@
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
   "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp",
   "file": "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/calc_params.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/calc_params.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/input_data.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/input_data.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/newton_method.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/newton_method.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/simple_iteration.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/simple_iteration.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp"
 }
 ]

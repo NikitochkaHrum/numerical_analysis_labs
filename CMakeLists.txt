@@ -6,7 +6,7 @@ include_directories(
   ${PROJECT_SOURCE_DIR}/include
 )
 
-add_executable(lab  src/lab3.cpp
+add_executable(lab  src/lab4.cpp
                     src/matrices.cpp
                     src/direct_methods/direct_sqrt.cpp
                     src/iteration_methods/simple_iteration.cpp
@@ -15,4 +15,9 @@ add_executable(lab  src/lab3.cpp
                     src/iteration_methods/conj_grad.cpp
                     src/iteration_methods/calc_params.cpp
                     src/iteration_methods/method_log/method_info.cpp
+                    src/non_lynear_systems/calc_params.cpp
+                    src/non_lynear_systems/input_data.cpp
+                    src/non_lynear_systems/newton_method.cpp
+                    src/non_lynear_systems/simple_iteration.cpp
+                    src/non_lynear_systems/method_log/method_info.cpp
                     )
