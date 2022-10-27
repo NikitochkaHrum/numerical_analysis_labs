@@ -43,7 +43,7 @@ Vec simple_iteration(Vec init, Vec solution, function<ld(ld, ld)> f1, function<l
         values_jacobian.data[1][0] = der_fi2_x(x->data[0], x->data[1]);
         values_jacobian.data[1][1] = der_fi2_y(x->data[0], x->data[1]);
 
-        j = values_jacobian.matrixnormeuk(true);
+        j = values_jacobian.matrixnormeuk();
 
         iter++;
 
