@@ -153,6 +153,150 @@ src/direct_methods/direct_sqrt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.s
 .PHONY : src/direct_methods/direct_sqrt.cpp.s
 
+src/integration/function_tool.o: src/integration/function_tool.cpp.o
+.PHONY : src/integration/function_tool.o
+
+# target to build an object file
+src/integration/function_tool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/function_tool.cpp.o
+.PHONY : src/integration/function_tool.cpp.o
+
+src/integration/function_tool.i: src/integration/function_tool.cpp.i
+.PHONY : src/integration/function_tool.i
+
+# target to preprocess a source file
+src/integration/function_tool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/function_tool.cpp.i
+.PHONY : src/integration/function_tool.cpp.i
+
+src/integration/function_tool.s: src/integration/function_tool.cpp.s
+.PHONY : src/integration/function_tool.s
+
+# target to generate assembly for a file
+src/integration/function_tool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/function_tool.cpp.s
+.PHONY : src/integration/function_tool.cpp.s
+
+src/integration/gauss.o: src/integration/gauss.cpp.o
+.PHONY : src/integration/gauss.o
+
+# target to build an object file
+src/integration/gauss.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/gauss.cpp.o
+.PHONY : src/integration/gauss.cpp.o
+
+src/integration/gauss.i: src/integration/gauss.cpp.i
+.PHONY : src/integration/gauss.i
+
+# target to preprocess a source file
+src/integration/gauss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/gauss.cpp.i
+.PHONY : src/integration/gauss.cpp.i
+
+src/integration/gauss.s: src/integration/gauss.cpp.s
+.PHONY : src/integration/gauss.s
+
+# target to generate assembly for a file
+src/integration/gauss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/gauss.cpp.s
+.PHONY : src/integration/gauss.cpp.s
+
+src/integration/method_log/method_info.o: src/integration/method_log/method_info.cpp.o
+.PHONY : src/integration/method_log/method_info.o
+
+# target to build an object file
+src/integration/method_log/method_info.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o
+.PHONY : src/integration/method_log/method_info.cpp.o
+
+src/integration/method_log/method_info.i: src/integration/method_log/method_info.cpp.i
+.PHONY : src/integration/method_log/method_info.i
+
+# target to preprocess a source file
+src/integration/method_log/method_info.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.i
+.PHONY : src/integration/method_log/method_info.cpp.i
+
+src/integration/method_log/method_info.s: src/integration/method_log/method_info.cpp.s
+.PHONY : src/integration/method_log/method_info.s
+
+# target to generate assembly for a file
+src/integration/method_log/method_info.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.s
+.PHONY : src/integration/method_log/method_info.cpp.s
+
+src/integration/simpson.o: src/integration/simpson.cpp.o
+.PHONY : src/integration/simpson.o
+
+# target to build an object file
+src/integration/simpson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/simpson.cpp.o
+.PHONY : src/integration/simpson.cpp.o
+
+src/integration/simpson.i: src/integration/simpson.cpp.i
+.PHONY : src/integration/simpson.i
+
+# target to preprocess a source file
+src/integration/simpson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/simpson.cpp.i
+.PHONY : src/integration/simpson.cpp.i
+
+src/integration/simpson.s: src/integration/simpson.cpp.s
+.PHONY : src/integration/simpson.s
+
+# target to generate assembly for a file
+src/integration/simpson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/simpson.cpp.s
+.PHONY : src/integration/simpson.cpp.s
+
+src/integration/trapez.o: src/integration/trapez.cpp.o
+.PHONY : src/integration/trapez.o
+
+# target to build an object file
+src/integration/trapez.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez.cpp.o
+.PHONY : src/integration/trapez.cpp.o
+
+src/integration/trapez.i: src/integration/trapez.cpp.i
+.PHONY : src/integration/trapez.i
+
+# target to preprocess a source file
+src/integration/trapez.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez.cpp.i
+.PHONY : src/integration/trapez.cpp.i
+
+src/integration/trapez.s: src/integration/trapez.cpp.s
+.PHONY : src/integration/trapez.s
+
+# target to generate assembly for a file
+src/integration/trapez.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez.cpp.s
+.PHONY : src/integration/trapez.cpp.s
+
+src/integration/trapez_spline.o: src/integration/trapez_spline.cpp.o
+.PHONY : src/integration/trapez_spline.o
+
+# target to build an object file
+src/integration/trapez_spline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o
+.PHONY : src/integration/trapez_spline.cpp.o
+
+src/integration/trapez_spline.i: src/integration/trapez_spline.cpp.i
+.PHONY : src/integration/trapez_spline.i
+
+# target to preprocess a source file
+src/integration/trapez_spline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.i
+.PHONY : src/integration/trapez_spline.cpp.i
+
+src/integration/trapez_spline.s: src/integration/trapez_spline.cpp.s
+.PHONY : src/integration/trapez_spline.s
+
+# target to generate assembly for a file
+src/integration/trapez_spline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.s
+.PHONY : src/integration/trapez_spline.cpp.s
+
 src/iteration_methods/calc_params.o: src/iteration_methods/calc_params.cpp.o
 .PHONY : src/iteration_methods/calc_params.o
 
@@ -297,29 +441,29 @@ src/iteration_methods/simple_relaxation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s
 .PHONY : src/iteration_methods/simple_relaxation.cpp.s
 
-src/lab4.o: src/lab4.cpp.o
-.PHONY : src/lab4.o
+src/lab6.o: src/lab6.cpp.o
+.PHONY : src/lab6.o
 
 # target to build an object file
-src/lab4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab4.cpp.o
-.PHONY : src/lab4.cpp.o
+src/lab6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab6.cpp.o
+.PHONY : src/lab6.cpp.o
 
-src/lab4.i: src/lab4.cpp.i
-.PHONY : src/lab4.i
+src/lab6.i: src/lab6.cpp.i
+.PHONY : src/lab6.i
 
 # target to preprocess a source file
-src/lab4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab4.cpp.i
-.PHONY : src/lab4.cpp.i
+src/lab6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab6.cpp.i
+.PHONY : src/lab6.cpp.i
 
-src/lab4.s: src/lab4.cpp.s
-.PHONY : src/lab4.s
+src/lab6.s: src/lab6.cpp.s
+.PHONY : src/lab6.s
 
 # target to generate assembly for a file
-src/lab4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab4.cpp.s
-.PHONY : src/lab4.cpp.s
+src/lab6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab6.cpp.s
+.PHONY : src/lab6.cpp.s
 
 src/matrices.o: src/matrices.cpp.o
 .PHONY : src/matrices.o
@@ -501,6 +645,24 @@ help:
 	@echo "... src/direct_methods/direct_sqrt.o"
 	@echo "... src/direct_methods/direct_sqrt.i"
 	@echo "... src/direct_methods/direct_sqrt.s"
+	@echo "... src/integration/function_tool.o"
+	@echo "... src/integration/function_tool.i"
+	@echo "... src/integration/function_tool.s"
+	@echo "... src/integration/gauss.o"
+	@echo "... src/integration/gauss.i"
+	@echo "... src/integration/gauss.s"
+	@echo "... src/integration/method_log/method_info.o"
+	@echo "... src/integration/method_log/method_info.i"
+	@echo "... src/integration/method_log/method_info.s"
+	@echo "... src/integration/simpson.o"
+	@echo "... src/integration/simpson.i"
+	@echo "... src/integration/simpson.s"
+	@echo "... src/integration/trapez.o"
+	@echo "... src/integration/trapez.i"
+	@echo "... src/integration/trapez.s"
+	@echo "... src/integration/trapez_spline.o"
+	@echo "... src/integration/trapez_spline.i"
+	@echo "... src/integration/trapez_spline.s"
 	@echo "... src/iteration_methods/calc_params.o"
 	@echo "... src/iteration_methods/calc_params.i"
 	@echo "... src/iteration_methods/calc_params.s"
@@ -519,9 +681,9 @@ help:
 	@echo "... src/iteration_methods/simple_relaxation.o"
 	@echo "... src/iteration_methods/simple_relaxation.i"
 	@echo "... src/iteration_methods/simple_relaxation.s"
-	@echo "... src/lab4.o"
-	@echo "... src/lab4.i"
-	@echo "... src/lab4.s"
+	@echo "... src/lab6.o"
+	@echo "... src/lab6.i"
+	@echo "... src/lab6.s"
 	@echo "... src/matrices.o"
 	@echo "... src/matrices.i"
 	@echo "... src/matrices.s"

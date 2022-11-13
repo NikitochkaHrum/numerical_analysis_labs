@@ -6,7 +6,7 @@ include_directories(
   ${PROJECT_SOURCE_DIR}/include
 )
 
-add_executable(lab  src/lab4.cpp
+add_executable(lab  src/lab6.cpp
                     src/matrices.cpp
                     src/direct_methods/direct_sqrt.cpp
                     src/iteration_methods/simple_iteration.cpp
@@ -21,4 +21,12 @@ add_executable(lab  src/lab4.cpp
                     src/non_lynear_systems/simple_iteration.cpp
                     src/non_lynear_systems/gradient_descent.cpp
                     src/non_lynear_systems/method_log/method_info.cpp
+                    src/integration/function_tool.cpp
+                    src/integration/gauss.cpp
+                    src/integration/simpson.cpp
+                    src/integration/trapez.cpp
+                    src/integration/trapez_spline.cpp
+                    src/integration/simpson.cpp
+                    src/integration/gauss.cpp
+                    src/integration/method_log/method_info.cpp
                     )

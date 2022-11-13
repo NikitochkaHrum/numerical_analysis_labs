@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
-  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab4.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab4.cpp",
-  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab4.cpp"
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab6.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp"
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
@@ -73,5 +73,35 @@
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
   "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp",
   "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/function_tool.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/function_tool.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/function_tool.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/gauss.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/gauss.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/gauss.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/simpson.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/simpson.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/simpson.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/trapez.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez_spline.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez_spline.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp"
 }
 ]
