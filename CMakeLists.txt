@@ -6,7 +6,7 @@ include_directories(
   ${PROJECT_SOURCE_DIR}/include
 )
 
-add_executable(lab  src/lab6.cpp
+add_executable(lab  src/lab5.cpp
                     src/matrices.cpp
                     src/direct_methods/direct_sqrt.cpp
                     src/iteration_methods/simple_iteration.cpp
@@ -29,4 +29,11 @@ add_executable(lab  src/lab6.cpp
                     src/integration/simpson.cpp
                     src/integration/gauss.cpp
                     src/integration/method_log/method_info.cpp
+                    src/interpolation/cont_rms.cpp
+                    src/interpolation/discrete_rms.cpp
+                    src/interpolation/input_data.cpp
+                    src/interpolation/newton.cpp
+                    src/interpolation/spline.cpp
+                    src/interpolation/uniform_approx.cpp
+                    src/interpolation/method_log/method_info.cpp
                     )
