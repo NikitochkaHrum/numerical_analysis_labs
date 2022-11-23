@@ -44,7 +44,7 @@ int main(){
 
     cout << "Вариант: 9\n";
     run_var(F_var9, Der_var9, Der4_var9, Der5_var9, Der6_var9);
-    cout << "Вариант: 25\n";
+    cout << "\n\nВариант: 25\n";
     run_var(F_var25, Der_var25, Der4_var25, Der5_var25, Der6_var25);
 
 }

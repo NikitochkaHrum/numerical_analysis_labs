@@ -69,19 +69,19 @@ include CMakeFiles/lab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab.dir/flags.make
 
-CMakeFiles/lab.dir/src/lab6.cpp.o: CMakeFiles/lab.dir/flags.make
-CMakeFiles/lab.dir/src/lab6.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp
-CMakeFiles/lab.dir/src/lab6.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab.dir/src/lab6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/lab6.cpp.o -MF CMakeFiles/lab.dir/src/lab6.cpp.o.d -o CMakeFiles/lab.dir/src/lab6.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp
+CMakeFiles/lab.dir/src/lab5.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/lab5.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp
+CMakeFiles/lab.dir/src/lab5.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab.dir/src/lab5.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/lab5.cpp.o -MF CMakeFiles/lab.dir/src/lab5.cpp.o.d -o CMakeFiles/lab.dir/src/lab5.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp
 
-CMakeFiles/lab.dir/src/lab6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/lab6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp > CMakeFiles/lab.dir/src/lab6.cpp.i
+CMakeFiles/lab.dir/src/lab5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/lab5.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp > CMakeFiles/lab.dir/src/lab5.cpp.i
 
-CMakeFiles/lab.dir/src/lab6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/lab6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp -o CMakeFiles/lab.dir/src/lab6.cpp.s
+CMakeFiles/lab.dir/src/lab5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/lab5.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp -o CMakeFiles/lab.dir/src/lab5.cpp.s
 
 CMakeFiles/lab.dir/src/matrices.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/matrices.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp
@@ -111,10 +111,24 @@ CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/direct_sqrt.cpp -o CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.s
 
+CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/sweep.cpp
+CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o -MF CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o.d -o CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/sweep.cpp
+
+CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/sweep.cpp > CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.i
+
+CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/sweep.cpp -o CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.s
+
 CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp
 CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/gradient_descent.cpp
 CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/gradient_descent.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp
 CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp
 CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/conj_grad.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/lab.dir/src/iteration_methods/conj_grad.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/calc_params.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/lab.dir/src/iteration_methods/calc_params.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o -MF CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d -o CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp
 
 CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.s: cmake_for
 CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/calc_params.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/calc_params.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/input_data.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/input_data.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/lab.dir/src/non_lynear_systems/input_data.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/newton_method.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/newton_method.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/simple_iteration.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/simple_iteration.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp
 
 CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.i: cmake_force
@@ -279,10 +293,24 @@ CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/method_log/method_info.cpp -o CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.s
 
+CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp
+CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o -MF CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o.d -o CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp
+
+CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp > CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.i
+
+CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp -o CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.s
+
 CMakeFiles/lab.dir/src/integration/function_tool.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/integration/function_tool.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/integration/function_tool.cpp
 CMakeFiles/lab.dir/src/integration/function_tool.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lab.dir/src/integration/function_tool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lab.dir/src/integration/function_tool.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/integration/function_tool.cpp.o -MF CMakeFiles/lab.dir/src/integration/function_tool.cpp.o.d -o CMakeFiles/lab.dir/src/integration/function_tool.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/function_tool.cpp
 
 CMakeFiles/lab.dir/src/integration/function_tool.cpp.i: cmake_force
@@ -296,7 +324,7 @@ CMakeFiles/lab.dir/src/integration/function_tool.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/integration/gauss.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/integration/gauss.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/integration/gauss.cpp
 CMakeFiles/lab.dir/src/integration/gauss.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lab.dir/src/integration/gauss.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lab.dir/src/integration/gauss.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/integration/gauss.cpp.o -MF CMakeFiles/lab.dir/src/integration/gauss.cpp.o.d -o CMakeFiles/lab.dir/src/integration/gauss.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/gauss.cpp
 
 CMakeFiles/lab.dir/src/integration/gauss.cpp.i: cmake_force
@@ -310,7 +338,7 @@ CMakeFiles/lab.dir/src/integration/gauss.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/integration/simpson.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/integration/simpson.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/integration/simpson.cpp
 CMakeFiles/lab.dir/src/integration/simpson.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lab.dir/src/integration/simpson.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lab.dir/src/integration/simpson.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/integration/simpson.cpp.o -MF CMakeFiles/lab.dir/src/integration/simpson.cpp.o.d -o CMakeFiles/lab.dir/src/integration/simpson.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/simpson.cpp
 
 CMakeFiles/lab.dir/src/integration/simpson.cpp.i: cmake_force
@@ -324,7 +352,7 @@ CMakeFiles/lab.dir/src/integration/simpson.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/integration/trapez.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/integration/trapez.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez.cpp
 CMakeFiles/lab.dir/src/integration/trapez.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lab.dir/src/integration/trapez.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lab.dir/src/integration/trapez.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/integration/trapez.cpp.o -MF CMakeFiles/lab.dir/src/integration/trapez.cpp.o.d -o CMakeFiles/lab.dir/src/integration/trapez.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez.cpp
 
 CMakeFiles/lab.dir/src/integration/trapez.cpp.i: cmake_force
@@ -338,7 +366,7 @@ CMakeFiles/lab.dir/src/integration/trapez.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez_spline.cpp
 CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o -MF CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o.d -o CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/trapez_spline.cpp
 
 CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.i: cmake_force
@@ -352,7 +380,7 @@ CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.s: cmake_force
 CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o: CMakeFiles/lab.dir/flags.make
 CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp
 CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o -MF CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o.d -o CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp
 
 CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.i: cmake_force
@@ -363,11 +391,110 @@ CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp -o CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.s
 
+CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/cont_rms.cpp
+CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/cont_rms.cpp
+
+CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/cont_rms.cpp > CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/cont_rms.cpp -o CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.s
+
+CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/discrete_rms.cpp
+CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/discrete_rms.cpp
+
+CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/discrete_rms.cpp > CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/discrete_rms.cpp -o CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.s
+
+CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/input_data.cpp
+CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/input_data.cpp
+
+CMakeFiles/lab.dir/src/interpolation/input_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/input_data.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/input_data.cpp > CMakeFiles/lab.dir/src/interpolation/input_data.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/input_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/input_data.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/input_data.cpp -o CMakeFiles/lab.dir/src/interpolation/input_data.cpp.s
+
+CMakeFiles/lab.dir/src/interpolation/newton.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/newton.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/newton.cpp
+CMakeFiles/lab.dir/src/interpolation/newton.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/lab.dir/src/interpolation/newton.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/newton.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/newton.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/newton.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/newton.cpp
+
+CMakeFiles/lab.dir/src/interpolation/newton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/newton.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/newton.cpp > CMakeFiles/lab.dir/src/interpolation/newton.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/newton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/newton.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/newton.cpp -o CMakeFiles/lab.dir/src/interpolation/newton.cpp.s
+
+CMakeFiles/lab.dir/src/interpolation/spline.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/spline.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/spline.cpp
+CMakeFiles/lab.dir/src/interpolation/spline.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/lab.dir/src/interpolation/spline.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/spline.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/spline.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/spline.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/spline.cpp
+
+CMakeFiles/lab.dir/src/interpolation/spline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/spline.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/spline.cpp > CMakeFiles/lab.dir/src/interpolation/spline.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/spline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/spline.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/spline.cpp -o CMakeFiles/lab.dir/src/interpolation/spline.cpp.s
+
+CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/uniform_approx.cpp
+CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/uniform_approx.cpp
+
+CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/uniform_approx.cpp > CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/uniform_approx.cpp -o CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.s
+
+CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o: /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/method_log/method_info.cpp
+CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o -MF CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o.d -o CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/method_log/method_info.cpp
+
+CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/method_log/method_info.cpp > CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.i
+
+CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/method_log/method_info.cpp -o CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.s
+
 # Object files for target lab
 lab_OBJECTS = \
-"CMakeFiles/lab.dir/src/lab6.cpp.o" \
+"CMakeFiles/lab.dir/src/lab5.cpp.o" \
 "CMakeFiles/lab.dir/src/matrices.cpp.o" \
 "CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o" \
+"CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o" \
 "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o" \
@@ -380,19 +507,28 @@ lab_OBJECTS = \
 "CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o" \
 "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o" \
 "CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o" \
+"CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o" \
 "CMakeFiles/lab.dir/src/integration/function_tool.cpp.o" \
 "CMakeFiles/lab.dir/src/integration/gauss.cpp.o" \
 "CMakeFiles/lab.dir/src/integration/simpson.cpp.o" \
 "CMakeFiles/lab.dir/src/integration/trapez.cpp.o" \
 "CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o" \
-"CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o"
+"CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/newton.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/spline.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o" \
+"CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o"
 
 # External object files for target lab
 lab_EXTERNAL_OBJECTS =
 
-lab: CMakeFiles/lab.dir/src/lab6.cpp.o
+lab: CMakeFiles/lab.dir/src/lab5.cpp.o
 lab: CMakeFiles/lab.dir/src/matrices.cpp.o
 lab: CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o
+lab: CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/gradient_descent.cpp.o
 lab: CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o
@@ -405,15 +541,23 @@ lab: CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o
 lab: CMakeFiles/lab.dir/src/non_lynear_systems/method_log/method_info.cpp.o
+lab: CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o
 lab: CMakeFiles/lab.dir/src/integration/function_tool.cpp.o
 lab: CMakeFiles/lab.dir/src/integration/gauss.cpp.o
 lab: CMakeFiles/lab.dir/src/integration/simpson.cpp.o
 lab: CMakeFiles/lab.dir/src/integration/trapez.cpp.o
 lab: CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.o
 lab: CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/newton.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/spline.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o
+lab: CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o
 lab: CMakeFiles/lab.dir/build.make
 lab: CMakeFiles/lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pna/Documents/study/numerical_analysis_labs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,5 @@
-#include "discrete_rms.h";
-#include "method_log/method_info.h";
+#include "discrete_rms.h"
+#include "method_log/method_info.h"
 
 
 void discrete_rms(vector<function<ld(ld)>>& basis, Mat& values){

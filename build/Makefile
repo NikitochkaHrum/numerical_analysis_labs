@@ -153,6 +153,30 @@ src/direct_methods/direct_sqrt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.s
 .PHONY : src/direct_methods/direct_sqrt.cpp.s
 
+src/direct_methods/sweep.o: src/direct_methods/sweep.cpp.o
+.PHONY : src/direct_methods/sweep.o
+
+# target to build an object file
+src/direct_methods/sweep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o
+.PHONY : src/direct_methods/sweep.cpp.o
+
+src/direct_methods/sweep.i: src/direct_methods/sweep.cpp.i
+.PHONY : src/direct_methods/sweep.i
+
+# target to preprocess a source file
+src/direct_methods/sweep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.i
+.PHONY : src/direct_methods/sweep.cpp.i
+
+src/direct_methods/sweep.s: src/direct_methods/sweep.cpp.s
+.PHONY : src/direct_methods/sweep.s
+
+# target to generate assembly for a file
+src/direct_methods/sweep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.s
+.PHONY : src/direct_methods/sweep.cpp.s
+
 src/integration/function_tool.o: src/integration/function_tool.cpp.o
 .PHONY : src/integration/function_tool.o
 
@@ -296,6 +320,174 @@ src/integration/trapez_spline.s: src/integration/trapez_spline.cpp.s
 src/integration/trapez_spline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/integration/trapez_spline.cpp.s
 .PHONY : src/integration/trapez_spline.cpp.s
+
+src/interpolation/cont_rms.o: src/interpolation/cont_rms.cpp.o
+.PHONY : src/interpolation/cont_rms.o
+
+# target to build an object file
+src/interpolation/cont_rms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o
+.PHONY : src/interpolation/cont_rms.cpp.o
+
+src/interpolation/cont_rms.i: src/interpolation/cont_rms.cpp.i
+.PHONY : src/interpolation/cont_rms.i
+
+# target to preprocess a source file
+src/interpolation/cont_rms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.i
+.PHONY : src/interpolation/cont_rms.cpp.i
+
+src/interpolation/cont_rms.s: src/interpolation/cont_rms.cpp.s
+.PHONY : src/interpolation/cont_rms.s
+
+# target to generate assembly for a file
+src/interpolation/cont_rms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.s
+.PHONY : src/interpolation/cont_rms.cpp.s
+
+src/interpolation/discrete_rms.o: src/interpolation/discrete_rms.cpp.o
+.PHONY : src/interpolation/discrete_rms.o
+
+# target to build an object file
+src/interpolation/discrete_rms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o
+.PHONY : src/interpolation/discrete_rms.cpp.o
+
+src/interpolation/discrete_rms.i: src/interpolation/discrete_rms.cpp.i
+.PHONY : src/interpolation/discrete_rms.i
+
+# target to preprocess a source file
+src/interpolation/discrete_rms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.i
+.PHONY : src/interpolation/discrete_rms.cpp.i
+
+src/interpolation/discrete_rms.s: src/interpolation/discrete_rms.cpp.s
+.PHONY : src/interpolation/discrete_rms.s
+
+# target to generate assembly for a file
+src/interpolation/discrete_rms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.s
+.PHONY : src/interpolation/discrete_rms.cpp.s
+
+src/interpolation/input_data.o: src/interpolation/input_data.cpp.o
+.PHONY : src/interpolation/input_data.o
+
+# target to build an object file
+src/interpolation/input_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o
+.PHONY : src/interpolation/input_data.cpp.o
+
+src/interpolation/input_data.i: src/interpolation/input_data.cpp.i
+.PHONY : src/interpolation/input_data.i
+
+# target to preprocess a source file
+src/interpolation/input_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/input_data.cpp.i
+.PHONY : src/interpolation/input_data.cpp.i
+
+src/interpolation/input_data.s: src/interpolation/input_data.cpp.s
+.PHONY : src/interpolation/input_data.s
+
+# target to generate assembly for a file
+src/interpolation/input_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/input_data.cpp.s
+.PHONY : src/interpolation/input_data.cpp.s
+
+src/interpolation/method_log/method_info.o: src/interpolation/method_log/method_info.cpp.o
+.PHONY : src/interpolation/method_log/method_info.o
+
+# target to build an object file
+src/interpolation/method_log/method_info.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o
+.PHONY : src/interpolation/method_log/method_info.cpp.o
+
+src/interpolation/method_log/method_info.i: src/interpolation/method_log/method_info.cpp.i
+.PHONY : src/interpolation/method_log/method_info.i
+
+# target to preprocess a source file
+src/interpolation/method_log/method_info.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.i
+.PHONY : src/interpolation/method_log/method_info.cpp.i
+
+src/interpolation/method_log/method_info.s: src/interpolation/method_log/method_info.cpp.s
+.PHONY : src/interpolation/method_log/method_info.s
+
+# target to generate assembly for a file
+src/interpolation/method_log/method_info.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.s
+.PHONY : src/interpolation/method_log/method_info.cpp.s
+
+src/interpolation/newton.o: src/interpolation/newton.cpp.o
+.PHONY : src/interpolation/newton.o
+
+# target to build an object file
+src/interpolation/newton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/newton.cpp.o
+.PHONY : src/interpolation/newton.cpp.o
+
+src/interpolation/newton.i: src/interpolation/newton.cpp.i
+.PHONY : src/interpolation/newton.i
+
+# target to preprocess a source file
+src/interpolation/newton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/newton.cpp.i
+.PHONY : src/interpolation/newton.cpp.i
+
+src/interpolation/newton.s: src/interpolation/newton.cpp.s
+.PHONY : src/interpolation/newton.s
+
+# target to generate assembly for a file
+src/interpolation/newton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/newton.cpp.s
+.PHONY : src/interpolation/newton.cpp.s
+
+src/interpolation/spline.o: src/interpolation/spline.cpp.o
+.PHONY : src/interpolation/spline.o
+
+# target to build an object file
+src/interpolation/spline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/spline.cpp.o
+.PHONY : src/interpolation/spline.cpp.o
+
+src/interpolation/spline.i: src/interpolation/spline.cpp.i
+.PHONY : src/interpolation/spline.i
+
+# target to preprocess a source file
+src/interpolation/spline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/spline.cpp.i
+.PHONY : src/interpolation/spline.cpp.i
+
+src/interpolation/spline.s: src/interpolation/spline.cpp.s
+.PHONY : src/interpolation/spline.s
+
+# target to generate assembly for a file
+src/interpolation/spline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/spline.cpp.s
+.PHONY : src/interpolation/spline.cpp.s
+
+src/interpolation/uniform_approx.o: src/interpolation/uniform_approx.cpp.o
+.PHONY : src/interpolation/uniform_approx.o
+
+# target to build an object file
+src/interpolation/uniform_approx.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o
+.PHONY : src/interpolation/uniform_approx.cpp.o
+
+src/interpolation/uniform_approx.i: src/interpolation/uniform_approx.cpp.i
+.PHONY : src/interpolation/uniform_approx.i
+
+# target to preprocess a source file
+src/interpolation/uniform_approx.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.i
+.PHONY : src/interpolation/uniform_approx.cpp.i
+
+src/interpolation/uniform_approx.s: src/interpolation/uniform_approx.cpp.s
+.PHONY : src/interpolation/uniform_approx.s
+
+# target to generate assembly for a file
+src/interpolation/uniform_approx.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.s
+.PHONY : src/interpolation/uniform_approx.cpp.s
 
 src/iteration_methods/calc_params.o: src/iteration_methods/calc_params.cpp.o
 .PHONY : src/iteration_methods/calc_params.o
@@ -441,29 +633,29 @@ src/iteration_methods/simple_relaxation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s
 .PHONY : src/iteration_methods/simple_relaxation.cpp.s
 
-src/lab6.o: src/lab6.cpp.o
-.PHONY : src/lab6.o
+src/lab5.o: src/lab5.cpp.o
+.PHONY : src/lab5.o
 
 # target to build an object file
-src/lab6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab6.cpp.o
-.PHONY : src/lab6.cpp.o
+src/lab5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab5.cpp.o
+.PHONY : src/lab5.cpp.o
 
-src/lab6.i: src/lab6.cpp.i
-.PHONY : src/lab6.i
+src/lab5.i: src/lab5.cpp.i
+.PHONY : src/lab5.i
 
 # target to preprocess a source file
-src/lab6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab6.cpp.i
-.PHONY : src/lab6.cpp.i
+src/lab5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab5.cpp.i
+.PHONY : src/lab5.cpp.i
 
-src/lab6.s: src/lab6.cpp.s
-.PHONY : src/lab6.s
+src/lab5.s: src/lab5.cpp.s
+.PHONY : src/lab5.s
 
 # target to generate assembly for a file
-src/lab6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab6.cpp.s
-.PHONY : src/lab6.cpp.s
+src/lab5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab5.cpp.s
+.PHONY : src/lab5.cpp.s
 
 src/matrices.o: src/matrices.cpp.o
 .PHONY : src/matrices.o
@@ -633,6 +825,30 @@ src/non_lynear_systems/simple_iteration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.s
 .PHONY : src/non_lynear_systems/simple_iteration.cpp.s
 
+src/non_lynear_systems/solve_nle.o: src/non_lynear_systems/solve_nle.cpp.o
+.PHONY : src/non_lynear_systems/solve_nle.o
+
+# target to build an object file
+src/non_lynear_systems/solve_nle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o
+.PHONY : src/non_lynear_systems/solve_nle.cpp.o
+
+src/non_lynear_systems/solve_nle.i: src/non_lynear_systems/solve_nle.cpp.i
+.PHONY : src/non_lynear_systems/solve_nle.i
+
+# target to preprocess a source file
+src/non_lynear_systems/solve_nle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.i
+.PHONY : src/non_lynear_systems/solve_nle.cpp.i
+
+src/non_lynear_systems/solve_nle.s: src/non_lynear_systems/solve_nle.cpp.s
+.PHONY : src/non_lynear_systems/solve_nle.s
+
+# target to generate assembly for a file
+src/non_lynear_systems/solve_nle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.s
+.PHONY : src/non_lynear_systems/solve_nle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -645,6 +861,9 @@ help:
 	@echo "... src/direct_methods/direct_sqrt.o"
 	@echo "... src/direct_methods/direct_sqrt.i"
 	@echo "... src/direct_methods/direct_sqrt.s"
+	@echo "... src/direct_methods/sweep.o"
+	@echo "... src/direct_methods/sweep.i"
+	@echo "... src/direct_methods/sweep.s"
 	@echo "... src/integration/function_tool.o"
 	@echo "... src/integration/function_tool.i"
 	@echo "... src/integration/function_tool.s"
@@ -663,6 +882,27 @@ help:
 	@echo "... src/integration/trapez_spline.o"
 	@echo "... src/integration/trapez_spline.i"
 	@echo "... src/integration/trapez_spline.s"
+	@echo "... src/interpolation/cont_rms.o"
+	@echo "... src/interpolation/cont_rms.i"
+	@echo "... src/interpolation/cont_rms.s"
+	@echo "... src/interpolation/discrete_rms.o"
+	@echo "... src/interpolation/discrete_rms.i"
+	@echo "... src/interpolation/discrete_rms.s"
+	@echo "... src/interpolation/input_data.o"
+	@echo "... src/interpolation/input_data.i"
+	@echo "... src/interpolation/input_data.s"
+	@echo "... src/interpolation/method_log/method_info.o"
+	@echo "... src/interpolation/method_log/method_info.i"
+	@echo "... src/interpolation/method_log/method_info.s"
+	@echo "... src/interpolation/newton.o"
+	@echo "... src/interpolation/newton.i"
+	@echo "... src/interpolation/newton.s"
+	@echo "... src/interpolation/spline.o"
+	@echo "... src/interpolation/spline.i"
+	@echo "... src/interpolation/spline.s"
+	@echo "... src/interpolation/uniform_approx.o"
+	@echo "... src/interpolation/uniform_approx.i"
+	@echo "... src/interpolation/uniform_approx.s"
 	@echo "... src/iteration_methods/calc_params.o"
 	@echo "... src/iteration_methods/calc_params.i"
 	@echo "... src/iteration_methods/calc_params.s"
@@ -681,9 +921,9 @@ help:
 	@echo "... src/iteration_methods/simple_relaxation.o"
 	@echo "... src/iteration_methods/simple_relaxation.i"
 	@echo "... src/iteration_methods/simple_relaxation.s"
-	@echo "... src/lab6.o"
-	@echo "... src/lab6.i"
-	@echo "... src/lab6.s"
+	@echo "... src/lab5.o"
+	@echo "... src/lab5.i"
+	@echo "... src/lab5.s"
 	@echo "... src/matrices.o"
 	@echo "... src/matrices.i"
 	@echo "... src/matrices.s"
@@ -705,6 +945,9 @@ help:
 	@echo "... src/non_lynear_systems/simple_iteration.o"
 	@echo "... src/non_lynear_systems/simple_iteration.i"
 	@echo "... src/non_lynear_systems/simple_iteration.s"
+	@echo "... src/non_lynear_systems/solve_nle.o"
+	@echo "... src/non_lynear_systems/solve_nle.i"
+	@echo "... src/non_lynear_systems/solve_nle.s"
 .PHONY : help
 
 

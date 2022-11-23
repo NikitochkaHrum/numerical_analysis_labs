@@ -9,6 +9,7 @@ include_directories(
 add_executable(lab  src/lab5.cpp
                     src/matrices.cpp
                     src/direct_methods/direct_sqrt.cpp
+                    src/direct_methods/sweep.cpp
                     src/iteration_methods/simple_iteration.cpp
                     src/iteration_methods/gradient_descent.cpp
                     src/iteration_methods/simple_relaxation.cpp
@@ -21,6 +22,7 @@ add_executable(lab  src/lab5.cpp
                     src/non_lynear_systems/simple_iteration.cpp
                     src/non_lynear_systems/gradient_descent.cpp
                     src/non_lynear_systems/method_log/method_info.cpp
+                    src/non_lynear_systems/solve_nle.cpp
                     src/integration/function_tool.cpp
                     src/integration/gauss.cpp
                     src/integration/simpson.cpp

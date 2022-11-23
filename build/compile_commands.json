@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
-  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab6.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp",
-  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab6.cpp"
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/lab5.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp"
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
@@ -13,6 +13,11 @@
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
   "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/direct_methods/direct_sqrt.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/direct_sqrt.cpp",
   "file": "/home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/direct_sqrt.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/direct_methods/sweep.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/sweep.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/direct_methods/sweep.cpp"
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
@@ -76,6 +81,11 @@
 },
 {
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
   "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/function_tool.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/function_tool.cpp",
   "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/function_tool.cpp"
 },
@@ -103,5 +113,40 @@
   "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
   "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/integration/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp",
   "file": "/home/pna/Documents/study/numerical_analysis_labs/src/integration/method_log/method_info.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/cont_rms.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/cont_rms.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/cont_rms.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/discrete_rms.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/discrete_rms.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/discrete_rms.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/input_data.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/input_data.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/input_data.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/newton.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/newton.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/newton.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/spline.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/spline.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/spline.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/uniform_approx.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/uniform_approx.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/uniform_approx.cpp"
+},
+{
+  "directory": "/home/pna/Documents/study/numerical_analysis_labs/build",
+  "command": "/usr/bin/g++  -I/home/pna/Documents/study/numerical_analysis_labs/src -I/home/pna/Documents/study/numerical_analysis_labs/include -g -o CMakeFiles/lab.dir/src/interpolation/method_log/method_info.cpp.o -c /home/pna/Documents/study/numerical_analysis_labs/src/interpolation/method_log/method_info.cpp",
+  "file": "/home/pna/Documents/study/numerical_analysis_labs/src/interpolation/method_log/method_info.cpp"
 }
 ]

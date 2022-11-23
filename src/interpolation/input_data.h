@@ -7,45 +7,25 @@ const double B = 2;
 
 const int N = 5;
 
-function<ld(ld)> F_var9 = [](ld x) -> ld {
-    return exp(x) + 6 * x + 3;
-};
+ld F_var9(ld x);
 
-function<ld(ld)> Der_var9 = [](ld x) -> ld {
-    return exp(x) + 6;
-};
+ld Der_var9(ld x);
 
-function<ld(ld)> Der4_var9 = [](ld x) -> ld {
-    return exp(x);
-};
+ld Der4_var9(ld x);
 
-function<ld(ld)> Der5_var9 = [](ld x) -> ld {
-    return exp(x);
-};
+ld Der5_var9(ld x);
 
-function<ld(ld)> Der6_var9 = [](ld x) -> ld {
-    return exp(x);
-};
+ld Der6_var9(ld x);
 
-function<ld(ld)> F_var25 = [](ld x) -> ld {
-    return pow(3, x) - x + 2;
-};
+ld F_var25(ld x);
 
-function<ld(ld)> Der_var25 = [](ld x) -> ld {
-    return pow(3, x) * log(3) - 1;
-};
+ld Der_var25(ld x);
 
-function<ld(ld)> Der4_var25 = [](ld x) -> ld {
-    return pow(3, x) * pow(log(3), 4);
-};
+ld Der4_var25(ld x);
 
-function<ld(ld)> Der5_var25 = [](ld x) -> ld {
-    return pow(3, x) * pow(log(3), 5);
-};
+ld Der5_var25(ld x);
 
-function<ld(ld)> Der6_var25 = [](ld x) -> ld {
-    return pow(3, x) * pow(log(3), 6);
-};
+ld Der6_var25(ld x);
 
 ld omega(ld x, vector<ld> &points);
 
