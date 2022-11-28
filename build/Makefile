@@ -633,29 +633,29 @@ src/iteration_methods/simple_relaxation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.s
 .PHONY : src/iteration_methods/simple_relaxation.cpp.s
 
-src/lab5.o: src/lab5.cpp.o
-.PHONY : src/lab5.o
+src/lab7.o: src/lab7.cpp.o
+.PHONY : src/lab7.o
 
 # target to build an object file
-src/lab5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab5.cpp.o
-.PHONY : src/lab5.cpp.o
+src/lab7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab7.cpp.o
+.PHONY : src/lab7.cpp.o
 
-src/lab5.i: src/lab5.cpp.i
-.PHONY : src/lab5.i
+src/lab7.i: src/lab7.cpp.i
+.PHONY : src/lab7.i
 
 # target to preprocess a source file
-src/lab5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab5.cpp.i
-.PHONY : src/lab5.cpp.i
+src/lab7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab7.cpp.i
+.PHONY : src/lab7.cpp.i
 
-src/lab5.s: src/lab5.cpp.s
-.PHONY : src/lab5.s
+src/lab7.s: src/lab7.cpp.s
+.PHONY : src/lab7.s
 
 # target to generate assembly for a file
-src/lab5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab5.cpp.s
-.PHONY : src/lab5.cpp.s
+src/lab7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/lab7.cpp.s
+.PHONY : src/lab7.cpp.s
 
 src/matrices.o: src/matrices.cpp.o
 .PHONY : src/matrices.o
@@ -849,6 +849,102 @@ src/non_lynear_systems/solve_nle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.s
 .PHONY : src/non_lynear_systems/solve_nle.cpp.s
 
+src/ode/heat_equation.o: src/ode/heat_equation.cpp.o
+.PHONY : src/ode/heat_equation.o
+
+# target to build an object file
+src/ode/heat_equation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/heat_equation.cpp.o
+.PHONY : src/ode/heat_equation.cpp.o
+
+src/ode/heat_equation.i: src/ode/heat_equation.cpp.i
+.PHONY : src/ode/heat_equation.i
+
+# target to preprocess a source file
+src/ode/heat_equation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/heat_equation.cpp.i
+.PHONY : src/ode/heat_equation.cpp.i
+
+src/ode/heat_equation.s: src/ode/heat_equation.cpp.s
+.PHONY : src/ode/heat_equation.s
+
+# target to generate assembly for a file
+src/ode/heat_equation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/heat_equation.cpp.s
+.PHONY : src/ode/heat_equation.cpp.s
+
+src/ode/method_log/method_info.o: src/ode/method_log/method_info.cpp.o
+.PHONY : src/ode/method_log/method_info.o
+
+# target to build an object file
+src/ode/method_log/method_info.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/method_log/method_info.cpp.o
+.PHONY : src/ode/method_log/method_info.cpp.o
+
+src/ode/method_log/method_info.i: src/ode/method_log/method_info.cpp.i
+.PHONY : src/ode/method_log/method_info.i
+
+# target to preprocess a source file
+src/ode/method_log/method_info.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/method_log/method_info.cpp.i
+.PHONY : src/ode/method_log/method_info.cpp.i
+
+src/ode/method_log/method_info.s: src/ode/method_log/method_info.cpp.s
+.PHONY : src/ode/method_log/method_info.s
+
+# target to generate assembly for a file
+src/ode/method_log/method_info.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/method_log/method_info.cpp.s
+.PHONY : src/ode/method_log/method_info.cpp.s
+
+src/ode/runge_kutt.o: src/ode/runge_kutt.cpp.o
+.PHONY : src/ode/runge_kutt.o
+
+# target to build an object file
+src/ode/runge_kutt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/runge_kutt.cpp.o
+.PHONY : src/ode/runge_kutt.cpp.o
+
+src/ode/runge_kutt.i: src/ode/runge_kutt.cpp.i
+.PHONY : src/ode/runge_kutt.i
+
+# target to preprocess a source file
+src/ode/runge_kutt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/runge_kutt.cpp.i
+.PHONY : src/ode/runge_kutt.cpp.i
+
+src/ode/runge_kutt.s: src/ode/runge_kutt.cpp.s
+.PHONY : src/ode/runge_kutt.s
+
+# target to generate assembly for a file
+src/ode/runge_kutt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/runge_kutt.cpp.s
+.PHONY : src/ode/runge_kutt.cpp.s
+
+src/ode/shooting.o: src/ode/shooting.cpp.o
+.PHONY : src/ode/shooting.o
+
+# target to build an object file
+src/ode/shooting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/shooting.cpp.o
+.PHONY : src/ode/shooting.cpp.o
+
+src/ode/shooting.i: src/ode/shooting.cpp.i
+.PHONY : src/ode/shooting.i
+
+# target to preprocess a source file
+src/ode/shooting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/shooting.cpp.i
+.PHONY : src/ode/shooting.cpp.i
+
+src/ode/shooting.s: src/ode/shooting.cpp.s
+.PHONY : src/ode/shooting.s
+
+# target to generate assembly for a file
+src/ode/shooting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/src/ode/shooting.cpp.s
+.PHONY : src/ode/shooting.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -921,9 +1017,9 @@ help:
 	@echo "... src/iteration_methods/simple_relaxation.o"
 	@echo "... src/iteration_methods/simple_relaxation.i"
 	@echo "... src/iteration_methods/simple_relaxation.s"
-	@echo "... src/lab5.o"
-	@echo "... src/lab5.i"
-	@echo "... src/lab5.s"
+	@echo "... src/lab7.o"
+	@echo "... src/lab7.i"
+	@echo "... src/lab7.s"
 	@echo "... src/matrices.o"
 	@echo "... src/matrices.i"
 	@echo "... src/matrices.s"
@@ -948,6 +1044,18 @@ help:
 	@echo "... src/non_lynear_systems/solve_nle.o"
 	@echo "... src/non_lynear_systems/solve_nle.i"
 	@echo "... src/non_lynear_systems/solve_nle.s"
+	@echo "... src/ode/heat_equation.o"
+	@echo "... src/ode/heat_equation.i"
+	@echo "... src/ode/heat_equation.s"
+	@echo "... src/ode/method_log/method_info.o"
+	@echo "... src/ode/method_log/method_info.i"
+	@echo "... src/ode/method_log/method_info.s"
+	@echo "... src/ode/runge_kutt.o"
+	@echo "... src/ode/runge_kutt.i"
+	@echo "... src/ode/runge_kutt.s"
+	@echo "... src/ode/shooting.o"
+	@echo "... src/ode/shooting.i"
+	@echo "... src/ode/shooting.s"
 .PHONY : help
 
 

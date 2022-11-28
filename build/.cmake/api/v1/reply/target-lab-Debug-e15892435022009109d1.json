@@ -88,7 +88,11 @@
 				26,
 				27,
 				28,
-				29
+				29,
+				30,
+				31,
+				32,
+				33
 			]
 		}
 	],
@@ -150,7 +154,11 @@
 				26,
 				27,
 				28,
-				29
+				29,
+				30,
+				31,
+				32,
+				33
 			]
 		}
 	],
@@ -159,7 +167,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/lab5.cpp",
+			"path" : "src/lab7.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -334,6 +342,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/interpolation/method_log/method_info.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ode/heat_equation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ode/runge_kutt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ode/shooting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ode/method_log/method_info.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

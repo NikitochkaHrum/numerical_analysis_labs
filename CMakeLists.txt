@@ -6,7 +6,7 @@ include_directories(
   ${PROJECT_SOURCE_DIR}/include
 )
 
-add_executable(lab  src/lab5.cpp
+add_executable(lab  src/lab7.cpp
                     src/matrices.cpp
                     src/direct_methods/direct_sqrt.cpp
                     src/direct_methods/sweep.cpp
@@ -38,4 +38,8 @@ add_executable(lab  src/lab5.cpp
                     src/interpolation/spline.cpp
                     src/interpolation/uniform_approx.cpp
                     src/interpolation/method_log/method_info.cpp
+                    src/ode/heat_equation.cpp
+                    src/ode/runge_kutt.cpp
+                    src/ode/shooting.cpp
+                    src/ode/method_log/method_info.cpp
                     )

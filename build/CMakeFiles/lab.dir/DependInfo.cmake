@@ -29,7 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/method_log/method_info.cpp" "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/method_log/method_info.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_iteration.cpp" "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/simple_iteration.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/iteration_methods/simple_relaxation.cpp" "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o" "gcc" "CMakeFiles/lab.dir/src/iteration_methods/simple_relaxation.cpp.o.d"
-  "/home/pna/Documents/study/numerical_analysis_labs/src/lab5.cpp" "CMakeFiles/lab.dir/src/lab5.cpp.o" "gcc" "CMakeFiles/lab.dir/src/lab5.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/lab7.cpp" "CMakeFiles/lab.dir/src/lab7.cpp.o" "gcc" "CMakeFiles/lab.dir/src/lab7.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/matrices.cpp" "CMakeFiles/lab.dir/src/matrices.cpp.o" "gcc" "CMakeFiles/lab.dir/src/matrices.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/calc_params.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/calc_params.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/gradient_descent.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/gradient_descent.cpp.o.d"
@@ -38,6 +38,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/newton_method.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/newton_method.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/simple_iteration.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/simple_iteration.cpp.o.d"
   "/home/pna/Documents/study/numerical_analysis_labs/src/non_lynear_systems/solve_nle.cpp" "CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o" "gcc" "CMakeFiles/lab.dir/src/non_lynear_systems/solve_nle.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/ode/heat_equation.cpp" "CMakeFiles/lab.dir/src/ode/heat_equation.cpp.o" "gcc" "CMakeFiles/lab.dir/src/ode/heat_equation.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/ode/method_log/method_info.cpp" "CMakeFiles/lab.dir/src/ode/method_log/method_info.cpp.o" "gcc" "CMakeFiles/lab.dir/src/ode/method_log/method_info.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/ode/runge_kutt.cpp" "CMakeFiles/lab.dir/src/ode/runge_kutt.cpp.o" "gcc" "CMakeFiles/lab.dir/src/ode/runge_kutt.cpp.o.d"
+  "/home/pna/Documents/study/numerical_analysis_labs/src/ode/shooting.cpp" "CMakeFiles/lab.dir/src/ode/shooting.cpp.o" "gcc" "CMakeFiles/lab.dir/src/ode/shooting.cpp.o.d"
   )
 
 # Targets to which this target links.
