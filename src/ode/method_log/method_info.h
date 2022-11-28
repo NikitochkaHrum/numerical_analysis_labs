@@ -2,7 +2,7 @@
 
 #include "../../matrices.h"
 
-void heat_eq_header(int n, ld h, ld hi, Vec &s);
+void heat_eq_header(int n, ld h, ld hi, Vec &s, bool expl);
 void heat_eq_iter(Vec &u, ld t, ld err);
 void heat_eq_max_err(ld err);
 

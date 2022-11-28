@@ -17,7 +17,7 @@ void heat_eq_explicit_schema(function<ld(ld, ld)> &f, ld a, ld b, function<ld(ld
     for (int i = 1; i < n; i++)
         prev.data[i] = phi(i * h);
 
-    heat_eq_header(n, h, hi, prev);
+    heat_eq_header(n, h, hi, prev, true);
 
     ld t; // Текущее время t(n), у нас t(i)
     ld max_err = 0; // Максимальная погрешность
@@ -74,7 +74,7 @@ void heat_eq_implicit_schema(function<ld(ld, ld)> &f, ld a, ld b, function<ld(ld
     for (int i = 1; i < n; i++)
         prev.data[i] = phi(i * h);
 
-    heat_eq_header(n, h, hi, prev);
+    heat_eq_header(n, h, hi, prev, false);
 
     ld t; // Текущее время t(n), у нас t(i)
     ld max_err = 0; // Максимальная погрешность

@@ -2,9 +2,13 @@
 
 using namespace std;
 
-void heat_eq_header(int n, ld h, ld hi, Vec &s) {
-    cout << "Метод конечных разностей (явная схема)\n"
-         << "N = " << n
+void heat_eq_header(int n, ld h, ld hi, Vec &s, bool expl) {
+    if(expl)
+        cout << "Метод конечных разностей (явная схема)\n";
+    else
+        cout << "Метод конечных разностей (неявная схема)\n";
+    
+    cout << "N = " << n
          << "\nH = " << h
          << "\nHi = " << hi << '\n';
 
